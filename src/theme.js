@@ -2,36 +2,36 @@
 
 const lightTheme = {
   name: "light",
-  body: "#FFFFFF",
-  text: "#343434",
-  dark: "#000000",
-  secondaryText: "#7F8DAA",
-  accentColor: "#E3405F",
-  accentBright: "#FC1056",
-  projectCard: "#DCE4F2",
-  skinColor: "#F7B799",
-  skinColor2: "#FCB696",
-  imageDark: "#dce4f2",
-  imageClothes: "#dce4f2",
-  avatarMisc: "#e9ecf2",
-  avatarShoes: "#ccd2e3",
+  body: "#FFFFFF", // white
+  text: "#343434", // dark gray/black
+  dark: "#000000", // black
+  secondaryText: "#7F8DAA", // blue-gray
+  accentColor: "#FFCB05", // Michigan - Maize
+  accentBright: "#00274C", // Michigan - Blue
+  projectCard: "#DCE4F2", // light blue
+  skinColor: "#F7B799", // skin 1
+  skinColor2: "#FCB696", // skin 2
+  imageDark: "#dce4f2", // light blue
+  imageClothes: "#dce4f2", // light blue
+  avatarMisc: "#e9ecf2", // light gray
+  avatarShoes: "#ccd2e3", // gray
 };
 
 const darkTheme = {
   name: "dark",
   body: "#1D1D1D",
-  text: "#FFFFFF",
-  dark: "#000000",
+  text: "#FFFFFF", // white
+  dark: "#000000", // black
   secondaryText: "#8D8D8D",
-  accentColor: "#E3405F",
-  accentBright: "#FC1056",
-  projectCard: "#292A2D",
-  skinColor: "#F7B799",
-  skinColor2: "#FCB696",
-  imageDark: "#292A2D",
-  imageClothes: "#000000",
-  avatarMisc: "#212121",
-  avatarShoes: "#2B2B2B",
+  accentColor: "#FFCB05", // Michigan - Maize
+  accentBright: "#00274C", // Michigan - Blue
+  projectCard: "#292A2D", // dark gray
+  skinColor: "#F7B799", // skin 1
+  skinColor2: "#FCB696", // skin 2
+  imageDark: "#292A2D", // dark gray
+  imageClothes: "#000000", // black
+  avatarMisc: "#212121", // dark gray
+  avatarShoes: "#2B2B2B", // dark gray
 };
 
 export const themes = { light: lightTheme, dark: darkTheme };

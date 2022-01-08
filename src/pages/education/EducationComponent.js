@@ -3,6 +3,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import Educations from "../../containers/education/Educations";
 import Certifications from "../../containers/certifications/Certifications";
+import Skills from "../../containers/workingSkills/WorkingSkills";
 import EducationImg from "./EducationImg";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
@@ -29,14 +30,16 @@ function Education(props) {
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                I actively participate in hackathons and other tech-related
-                activities. Below are some of my major certifications.
+                Listed below are my professional education, as well as
+                certifications that I have obtained relevant to my engineering
+                background.
               </p>
             </div>
           </div>
         </Fade>
         <Educations theme={props.theme} />
         <Certifications theme={props.theme} />
+        <Skills theme={props.theme} />
       </div>
       <Footer theme={props.theme} />
     </div>

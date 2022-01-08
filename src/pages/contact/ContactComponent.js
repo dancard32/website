@@ -30,7 +30,7 @@ function Contact(props) {
             <div className="contact-heading-img-div">
               <img
                 className="profile-pic"
-                src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
                 alt=""
               />
             </div>
@@ -50,7 +50,13 @@ function Contact(props) {
               <SocialMedia />
               <br />
               <br />
-              <a {...styles} className="general-btn" href={greeting.resumeLink}>
+              <a
+                {...styles}
+                className="general-btn"
+                href={greeting.resumeLink}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 See my Resume
               </a>
             </div>
