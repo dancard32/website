@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.0fceb42b.chunk.css",
+    "main.js": "/website/static/js/main.e1f33ed7.chunk.js",
+    "main.js.map": "/website/static/js/main.e1f33ed7.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.acca61c5.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.acca61c5.js.map",
+    "static/js/2.a274831c.chunk.js": "/website/static/js/2.a274831c.chunk.js",
+    "static/js/2.a274831c.chunk.js.map": "/website/static/js/2.a274831c.chunk.js.map",
+    "index.html": "/website/index.html",
+    "precache-manifest.5464724786e152f1db911ede924e8a78.js": "/website/precache-manifest.5464724786e152f1db911ede924e8a78.js",
+    "service-worker.js": "/website/service-worker.js",
+    "static/css/main.0fceb42b.chunk.css.map": "/website/static/css/main.0fceb42b.chunk.css.map",
+    "static/js/2.a274831c.chunk.js.LICENSE.txt": "/website/static/js/2.a274831c.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/website/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/ExoTerra_Logo.webp": "/website/static/media/ExoTerra_Logo.e6413c31.webp",
+    "static/media/HET.webp": "/website/static/media/HET.785010ca.webp",
+    "static/media/NG_Logo.webp": "/website/static/media/NG_Logo.76877c6a.webp",
+    "static/media/PEPL_Logo.webp": "/website/static/media/PEPL_Logo.93bfead8.webp",
+    "static/media/UM_Logo.webp": "/website/static/media/UM_Logo.7f5bdf60.webp",
+    "static/media/dancard.webp": "/website/static/media/dancard.f1970639.webp",
+    "static/media/dj4e.webp": "/website/static/media/dj4e.74f7ef91.webp",
+    "static/media/all.css": "/website/static/media/fa-solid-900.c2801fb4.svg",
+    "static/media/facility_effects.webp": "/website/static/media/facility_effects.3b90fd33.webp",
+    "static/media/hovercraft.webp": "/website/static/media/hovercraft.bc39c6dc.webp",
+    "static/media/lilac.webp": "/website/static/media/lilac.43da5924.webp",
+    "static/media/p4e.webp": "/website/static/media/p4e.75f269f6.webp",
+    "static/media/python_ds.webp": "/website/static/media/python_ds.a384e927.webp",
+    "static/media/ramjet_diag.webp": "/website/static/media/ramjet_diag.1312f9da.webp",
+    "static/media/ssme25.webp": "/website/static/media/ssme25.7d7fb706.webp",
+    "static/media/truss_deform.gif": "/website/static/media/truss_deform.5dd1c6bc.gif",
+    "static/media/voyager2.webp": "/website/static/media/voyager2.c5cfa839.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.acca61c5.js",
+    "static/js/2.a274831c.chunk.js",
+    "static/css/main.0fceb42b.chunk.css",
+    "static/js/main.e1f33ed7.chunk.js"
+  ]
+}
