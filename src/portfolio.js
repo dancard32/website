@@ -25,10 +25,8 @@ const socialMediaLinks = {
   github: "https://github.com/dancard32",
   linkedin: "https://www.linkedin.com/in/dan-card/",
   gmail: "dcard@umich.edu",
-  //gitlab: "https://gitlab.com/harikanani",
-  //facebook: "https://www.facebook.com/harikrishan.kanani/",
   twitter: "https://twitter.com/DanCard32",
-  //instagram: "https://www.instagram.com/hari_kanani_/",
+  instagram: "https://www.instagram.com/DanCard32/",
 };
 
 const skills = {
@@ -307,8 +305,7 @@ const certifications = {
       title: "Python for Everybody",
       subtitle: "University of Michigan | Coursera",
       logo_path: "p4e.webp",
-      certificate_link:
-        "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
+      certificate_link: "/CS_Certifications/AppliedMachineLearninginPython.pdf",
       alt_name: "University of Michigan | Coursera",
       color_code: "#47A048",
     },
