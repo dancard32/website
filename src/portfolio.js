@@ -563,7 +563,7 @@ const projects = {
     },
     {
       id: "2",
-      name: "my_website",
+      name: "website",
       url: "https://github.com/dancard32/website",
       description:
         "This is simply the github repository of the current website that you are viewing.",
