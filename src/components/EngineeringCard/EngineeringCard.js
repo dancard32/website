@@ -4,11 +4,6 @@ import { Fade } from "react-reveal";
 import { style } from "glamor";
 
 export default function EngineeringCard({ repo, theme }) {
-  function openRepoinNewTab(url) {
-    var win = window.open(url, "_blank");
-    win.focus();
-  }
-
   const styles = style({
     color: "rgb(88, 96, 105)",
     backgroundColor: "rgb(255, 255, 255)",
@@ -29,31 +24,37 @@ export default function EngineeringCard({ repo, theme }) {
         <div
           {...styles}
           key={repo.id}
-          onClick={() => openRepoinNewTab(repo.url)}
           style={{ backgroundColor: theme.projectCard }}
         >
-          <div className="repo-name-div">
-            <p className="repo-name" style={{ color: theme.text }}>
-              {repo.name}
-            </p>
-          </div>
-          <div className="repo-software" style={{ color: theme.text }}>
-            <img
-              className="engineering-card-logo"
-              src={require(`../../assets/images/${repo.img}`)}
-              alt=""
-              width="100%"
-              position="bottom"
-            />
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={require(`../../assets/portfolioPDFs/${repo.url}`)}
+            style={{ textDecoration: "none" }}
+          >
+            <div className="repo-name-div">
+              <p className="repo-name" style={{ color: theme.text }}>
+                {repo.name}
+              </p>
+            </div>
+            <div className="repo-software" style={{ color: theme.text }}>
+              <img
+                className="engineering-card-logo"
+                src={require(`../../assets/images/${repo.img}`)}
+                alt=""
+                width="100%"
+                position="bottom"
+              />
 
-            <p className="repo-description" style={{ color: theme.text }}>
-              {repo.description}
-              <br />
-              <br />
-              <br />
-              Software used: {repo.software}
-            </p>
-          </div>
+              <p className="repo-description" style={{ color: theme.text }}>
+                {repo.description}
+                <br />
+                <br />
+                <br />
+                Software used: {repo.software}
+              </p>
+            </div>
+          </a>
         </div>
       </Fade>
     </div>

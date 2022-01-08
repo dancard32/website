@@ -21,7 +21,7 @@ function CertificationCard(props) {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href={certificate.certificate_link}
+            href={require(`../../assets/CS_Certifications/${certificate.certificate_link}`)}
           >
             <div className="content-overlay"></div>
             <div

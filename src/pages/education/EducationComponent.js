@@ -30,9 +30,9 @@ function Education(props) {
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                Listed below are my professional education, as well as
-                certifications that I have obtained relevant to my engineering
-                background.
+                Listed below are my professional education, and working skills,
+                as well as certifications that I have obtained relevant to my
+                engineering background.
               </p>
             </div>
           </div>

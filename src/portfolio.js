@@ -15,8 +15,7 @@ const greeting = {
   nickname: "Dan",
   full_name: "Dan Card",
   subTitle: "Aerospace Engineer, Aspiring Software Engineer. Always curious.",
-  resumeLink:
-    "https://drive.google.com/file/d/1n7O4TC7R8QywCC0SQ0_dTvUCVYLhoImZ/view?usp=sharing",
+  resumeLink: "Resume.pdf",
   mail: "mailto:dcard@umich.edu",
 };
 
@@ -302,30 +301,89 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Python for Everybody",
-      subtitle: "University of Michigan | Coursera",
-      logo_path: "p4e.webp",
-      certificate_link: "/CS_Certifications/AppliedMachineLearninginPython.pdf",
+      title: "Applied Machine Learning in Python",
+      subtitle: "Python Data Science | University of Michigan, Coursera",
+      logo_path: "pds_machineLearning.webp",
+      certificate_link: "Applied Machine Learning in Python.pdf",
+      alt_name: "University of Michigan | Coursera",
+      color_code: "#8C151599",
+    },
+    {
+      title: "Python Data Structures",
+      subtitle: "Python for Everybody | University of Michigan, Coursera",
+      logo_path: "p4e_dataStructures.webp",
+      certificate_link: "Python Data Structures.pdf",
       alt_name: "University of Michigan | Coursera",
       color_code: "#47A048",
     },
     {
-      title: "Python Applied Data Science",
-      subtitle: "University of Michigan | Coursera",
-      logo_path: "python_ds.webp",
-      certificate_link:
-        "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "University of Michigan | Coursera",
-      color_code: "#E2405F",
-    },
-    {
-      title: "Django for Everybody",
-      subtitle: "University of Michigan | Coursera",
-      logo_path: "dj4e.webp",
-      certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
+      title: "Introduction to Data Science in Python",
+      subtitle: "Python Data Science | University of Michigan, Coursera",
+      logo_path: "pds_dataScience.webp",
+      certificate_link: "Introduction to Data Science in Python.pdf",
       alt_name: "University of Michigan | Coursera",
       color_code: "#8C151599",
+    },
+
+    {
+      title: "Programming for Everybody (Getting Started with Python)",
+      subtitle: "Python for Everybody | University of Michigan, Coursera",
+      logo_path: "p4e_gettingStarted.webp",
+      certificate_link:
+        "Programming for Everybody (Getting Started with Python).pdf",
+      alt_name: "University of Michigan | Coursera",
+      color_code: "#47A048",
+    },
+    {
+      title: "Using Databases with Python",
+      subtitle: "Python for Everybody | University of Michigan, Coursera",
+      logo_path: "p4e_databases.webp",
+      certificate_link: "Using Databases with Python.pdf",
+      alt_name: "University of Michigan | Coursera",
+      color_code: "#47A048",
+    },
+    {
+      title: "Using Python to Access Web Data",
+      subtitle: "Python for Everybody | University of Michigan, Coursera",
+      logo_path: "p4e_webData.webp",
+      certificate_link: "Using Python to Access Web Data.pdf",
+      alt_name: "University of Michigan | Coursera",
+      color_code: "#47A048",
+    },
+
+    {
+      title: "Applied Text Mining in Python",
+      subtitle: "Python Data Science | University of Michigan, Coursera",
+      logo_path: "pds_textMining.webp",
+      certificate_link: "Applied Text Mining in Python.pdf",
+      alt_name: "University of Michigan | Coursera",
+      color_code: "#8C151599",
+    },
+    {
+      title: "Applied Social Network Analysis in Python",
+      subtitle: "Python Data Science | University of Michigan, Coursera",
+      logo_path: "pds_networkAnalysis.webp",
+      certificate_link: "Applied Social Network Analysis in Python.pdf",
+      alt_name: "University of Michigan | Coursera",
+      color_code: "#8C151599",
+    },
+    {
+      title: "Applied Plotting, Charting & Data Representation in Python",
+      subtitle: "Python Data Science | University of Michigan, Coursera",
+      logo_path: "pds_dataRep.webp",
+      certificate_link:
+        "Applied Plotting, Charting & Data Representation in Python.pdf",
+      alt_name: "University of Michigan | Coursera",
+      color_code: "#8C151599",
+    },
+
+    {
+      title: "Web Application Technologies and Django",
+      subtitle: "Django for Everybody | University of Michigan, Coursera",
+      logo_path: "django_webTech.webp",
+      certificate_link: "Web Application Technologies and Django.pdf",
+      alt_name: "University of Michigan | Coursera",
+      color_code: "#ffbfae",
     },
   ],
   skills: [
@@ -333,8 +391,7 @@ const certifications = {
       title: "Python for Everybody",
       subtitle: "University of Michigan | Coursera",
       logo_path: "p4e.webp",
-      certificate_link:
-        "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
+      certificate_link: "Applied Machine Learning in Python.pdf",
       alt_name: "University of Michigan | Coursera",
       color_code: "#47A048",
     },
@@ -342,8 +399,7 @@ const certifications = {
       title: "Python Applied Data Science",
       subtitle: "University of Michigan | Coursera",
       logo_path: "python_ds.webp",
-      certificate_link:
-        "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
+      certificate_link: "Applied Machine Learning in Python.pdf",
       alt_name: "University of Michigan | Coursera",
       color_code: "#E2405F",
     },
@@ -351,8 +407,7 @@ const certifications = {
       title: "Django for Everybody",
       subtitle: "University of Michigan | Coursera",
       logo_path: "dj4e.webp",
-      certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
+      certificate_link: "Applied Machine Learning in Python.pdf",
       alt_name: "University of Michigan | Coursera",
       color_code: "#8C151599",
     },
@@ -569,8 +624,8 @@ const projects = {
   engr: [
     {
       id: "7",
-      name: "",
-      url: "Setting Up AFS-1.pdf",
+      name: "2Kw Krypton Hall Effect Thruster",
+      url: "2kW HET.pdf",
       description:
         "Using Fusion 360, designed a Hall Effect Thruster from start to finish adopting first-principles and industry standards. Wrote a custom Python3 CFD script to analyze gas flow from from the anode/gas distributor through the inner channel. Iterated design to allow for re-use of stock material to reduce the cost of manufacturing on ceramics and metal walls",
       img: "HET.webp",
@@ -579,7 +634,7 @@ const projects = {
     {
       id: "6",
       name: "Supersonic Engine Analysis",
-      url: "",
+      url: "Supersonic Engine Analysis.pdf",
       description:
         "In my graduate computational fluid dynamics course, I used finite-element analysis and mesh adaptation to approximate the flow fields throughout a ramjet. We varied the attack angle to determine the most effective angle and correlated to the trained Mach diamonds throughout the inlets interior. This project was written entirely in the Python3 environment with minimal additional library imports",
       img: "ramjet_diag.webp",
@@ -588,7 +643,7 @@ const projects = {
     {
       id: "5",
       name: "Analysis of Regeneratively Cooled Nozzle Channels",
-      url: "",
+      url: "Regeneratively Cooled Nozzle Channels.pdf",
       description:
         "In my graduate computational methods for aerospace engineering, I successfully simulated the heat flow through a Regeneratively cooled nozzle channel. In this project I provide an in-depth analysis of the effects of notching the nozzle boundaries and how it effects how much heat flux can be transferred in the steady state.",
       img: "ssme25.webp",
@@ -597,7 +652,7 @@ const projects = {
     {
       id: "4",
       name: "Lunar Lander Truss Simulation",
-      url: "",
+      url: "Lunar Lander Truss.pdf",
       description:
         "This project for my graduate computational methods for aerospace engineering simulated the deformations of a truss during a lunar touchdown. In this project I implemented several solvers and performed convergence study's and confirmed convergence rates across each integration scheme.",
       img: "truss_deform.gif",
@@ -606,7 +661,7 @@ const projects = {
     {
       id: "3",
       name: "Voyager 2 Deep Space Mission Simulation",
-      url: "",
+      url: "Voyager 2.pdf",
       description:
         "The goal of this project is to simulate Voyager 2's mission through the solar system stepping through all the numerous flyby's of the four gas giants. This project analyzes the trajectories from Voyager 2, the velocities and an in-depth analysis into the possibilities that arise from simplifications and or numerical inaccuracies.",
       img: "voyager2.webp",
@@ -616,7 +671,7 @@ const projects = {
       id: "2",
       name:
         "An Analysis of Facility Effects on Electric Propulsion Performance",
-      url: "",
+      url: "Facility Effects.pdf",
       description:
         "This paper was written to provide an overview into the past research conducted on facility effects, and the various ways that facilities effect the performance of electric propulsion. Here is a link to the report that provides key insight into how the performance is impacted.",
       img: "facility_effects.webp",
@@ -625,7 +680,7 @@ const projects = {
     {
       id: "1",
       name: "2019 PEPL Research",
-      url: "",
+      url: "SURE 2019 Proposal.pdf",
       description:
         "Over summer 2019, I had the opportunity to conduct research at the Plasmadynamics and Electric Propulsion Laboratory. Through my time there I repaired our motion stages to improve their performance when in vacuum. My main focus of improving the performance was to interface the motion stages with incremental encoders that would allow for the easy measurement of a motion stages position.",
       img: "lilac.webp",
@@ -634,7 +689,7 @@ const projects = {
     {
       id: "0",
       name: "Hovercraft Design Project",
-      url: "",
+      url: "Hovercraft Presentation.pdf",
       description:
         "In my undergraduate systems engineering class we were tasked with creating a timeline of designing a hovercraft, creating preliminary designs and then testing and iterating the designs. This project allowed us to determine and mitigate most of the risks that were required for this project. Highlighted below is our final presentation with a system overview of all the hardwork that we all contributed.",
       img: "hovercraft.webp",

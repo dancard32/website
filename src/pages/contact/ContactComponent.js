@@ -53,7 +53,7 @@ function Contact(props) {
               <a
                 {...styles}
                 className="general-btn"
-                href={greeting.resumeLink}
+                href={require(`../../assets/portfolioPDFs/${greeting.resumeLink}`)}
                 target="_blank"
                 rel="noreferrer noopener"
               >
@@ -76,7 +76,7 @@ function Contact(props) {
               </p>
               <div className="blogsite-btn-div">
                 <a {...styles} className="general-btn" href={blogSection.link}>
-                  My Twitter Profile
+                  My Github Profile
                 </a>
               </div>
             </div>
