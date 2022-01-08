@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/website/static/css/main.0fceb42b.chunk.css",
-    "main.js": "/website/static/js/main.bdcc7c59.chunk.js",
-    "main.js.map": "/website/static/js/main.bdcc7c59.chunk.js.map",
+    "main.js": "/website/static/js/main.8ba21b22.chunk.js",
+    "main.js.map": "/website/static/js/main.8ba21b22.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.acca61c5.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.acca61c5.js.map",
-    "static/js/2.08562d7a.chunk.js": "/website/static/js/2.08562d7a.chunk.js",
-    "static/js/2.08562d7a.chunk.js.map": "/website/static/js/2.08562d7a.chunk.js.map",
+    "static/js/2.7d152159.chunk.js": "/website/static/js/2.7d152159.chunk.js",
+    "static/js/2.7d152159.chunk.js.map": "/website/static/js/2.7d152159.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.ff4dae44e291399ed81ebbdae62fb706.js": "/website/precache-manifest.ff4dae44e291399ed81ebbdae62fb706.js",
+    "precache-manifest.ba5f5a6b83cdb4dba00cc1bdfc8bc3b3.js": "/website/precache-manifest.ba5f5a6b83cdb4dba00cc1bdfc8bc3b3.js",
     "service-worker.js": "/website/service-worker.js",
     "static/css/main.0fceb42b.chunk.css.map": "/website/static/css/main.0fceb42b.chunk.css.map",
-    "static/js/2.08562d7a.chunk.js.LICENSE.txt": "/website/static/js/2.08562d7a.chunk.js.LICENSE.txt",
+    "static/js/2.7d152159.chunk.js.LICENSE.txt": "/website/static/js/2.7d152159.chunk.js.LICENSE.txt",
     "static/media/2kW HET.pdf": "/website/static/media/2kW HET.c7f5a19b.pdf",
     "static/media/index.css": "/website/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Applied Machine Learning in Python.pdf": "/website/static/media/Applied Machine Learning in Python.c3c10b67.pdf",
@@ -38,11 +38,6 @@
     "static/media/Using Python to Access Web Data.pdf": "/website/static/media/Using Python to Access Web Data.305b87bf.pdf",
     "static/media/Voyager 2.pdf": "/website/static/media/Voyager 2.fad800f4.pdf",
     "static/media/Web Application Technologies and Django.pdf": "/website/static/media/Web Application Technologies and Django.bdb7a84c.pdf",
-    "static/media/aero423_proj1.pdf": "/website/static/media/aero423_proj1.9910a094.pdf",
-    "static/media/aero423_proj2.pdf": "/website/static/media/aero423_proj2.413bff08.pdf",
-    "static/media/aero523_proj1.pdf": "/website/static/media/aero523_proj1.325c832c.pdf",
-    "static/media/aero535_hw1.pdf": "/website/static/media/aero535_hw1.cf1e65f9.pdf",
-    "static/media/aero535_hw2.pdf": "/website/static/media/aero535_hw2.3739b9dd.pdf",
     "static/media/dan_card_transcript.pdf": "/website/static/media/dan_card_transcript.8c96ba69.pdf",
     "static/media/dancard.webp": "/website/static/media/dancard.f1970639.webp",
     "static/media/dj4e.webp": "/website/static/media/dj4e.74f7ef91.webp",
@@ -70,8 +65,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.acca61c5.js",
-    "static/js/2.08562d7a.chunk.js",
+    "static/js/2.7d152159.chunk.js",
     "static/css/main.0fceb42b.chunk.css",
-    "static/js/main.bdcc7c59.chunk.js"
+    "static/js/main.8ba21b22.chunk.js"
   ]
 }
