@@ -31,28 +31,21 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
+      title: "Versatile Programming",
+      fileName: "ProgrammingImg",
       skills: [
-        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and Android",
-        "⚡ Creating application backend in Node, Express & Flask",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+        "👨🏽‍💻 Develop back-end algorithms for a vast array of applications",
+        "🚀 Focused Masters study in Aerospace Engineering computational methods",
+        "⚙️ Developing full-stack web application integrated with Google-Maps API",
+        "🗣 Working on a Google-Translate API",
+        "🔜 My first Amazon Alexa application in the planning",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
           style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
+            color: "#3776AB",
           },
         },
         {
@@ -64,10 +57,10 @@ const skills = {
           },
         },
         {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
           style: {
-            color: "#7377AD",
+            color: "#E34F26",
           },
         },
         {
@@ -92,80 +85,24 @@ const skills = {
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "C",
+          fontAwesomeClassname: "simple-icons:c",
           style: {
-            color: "#439743",
-          },
-        },
-        // {
-        //   skillName: "GraphQL",
-        //   fontAwesomeClassname: "simple-icons:graphql",
-        //   style: {
-        //     color: "#DE33A6",
-        //   },
-        // },
-        {
-          skillName: "Android",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
+            color: "#E94E32",
           },
         },
         {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
+          skillName: "CSS3",
+          fontAwesomeClassname: "fa-css3",
           style: {
-            color: "#f89820",
+            color: "#1572B6",
           },
         },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-        {
-          skillName: "Dart",
-          fontAwesomeClassname: "simple-icons:dart",
-          style: {
-            color: "#29B0EE",
-          },
-        },
-        // {
-        //   skillName: "Visual Basic",
-        //   fontAwesomeClassname: "simple-icons:dot-net",
-        //   style: {
-        //     color: "#029FCE",
-        //   },
-        // },
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
           style: {
             color: "#4479A1",
-          },
-        },
-        {
-          skillName: "jQuery",
-          fontAwesomeClassname: "simple-icons:jquery",
-          style: {
-            color: "#0865A6",
-          },
-        },
-        {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
-          style: {
-            color: "#207297",
-          },
-        },
-        {
-          skillName: "Apache",
-          fontAwesomeClassname: "simple-icons:apache",
-          style: {
-            color: "#CA1A22",
           },
         },
         {
@@ -175,18 +112,30 @@ const skills = {
             color: "#E94E32",
           },
         },
+      ],
+    },
+    {
+      title: "Technical Background",
+      fileName: "FirmwareImg",
+      skills: [
+        "🚀 Lead tooling maintenance on a multi-billion dollar contract",
+        "🛰 Worked on high-power thruster running upwards of 10kW",
+        "💻 Developed custom parts to interface with laboratory equipment",
+        "🖨 Avid 3D printer/tinkerer as small side projects",
+      ],
+      softwareSkills: [
         {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
+          skillName: "Arduino",
+          fontAwesomeClassname: "simple-icons:arduino",
           style: {
-            color: "#E94E32",
+            color: "#00979D",
           },
         },
         {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
+          skillName: "LabVIEW",
+          fontAwesomeClassname: "simple-icons:labview",
           style: {
-            color: "#E94E32",
+            color: "#FFDB00",
           },
         },
         {
@@ -196,15 +145,22 @@ const skills = {
             color: "#3776AB",
           },
         },
+        {
+          skillName: "C",
+          fontAwesomeClassname: "simple-icons:c",
+          style: {
+            color: "#E94E32",
+          },
+        },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
+      title: "Always looking to learn!",
+      fileName: "DevImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        "👨🏽‍💻 Always looking to improve! Above are languages I plan to learn",
+        "👍 Targeting summer/fall meme-generator smart contract launch",
+        "🎤 Amazon Alexa Echo app to start this year, targeting May",
       ],
       softwareSkills: [
         {
@@ -215,52 +171,46 @@ const skills = {
           },
         },
         {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
+          skillName: "Alexa",
+          fontAwesomeClassname: "simple-icons:amazonalexa",
           style: {
-            color: "#38AFBB",
+            color: "#00CAFF",
           },
         },
         {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
           style: {
-            color: "#6863A6",
+            backgroundColor: "#FFFFFF",
+            color: "#F7DF1E",
           },
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "Java",
+          fontAwesomeClassname: "simple-icons:java",
           style: {
-            color: "#FFCA28",
+            color: "#808080",
           },
         },
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          skillName: "PHP",
+          fontAwesomeClassname: "simple-icons:php",
           style: {
-            color: "#336791",
+            color: "#313875",
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "Go",
+          fontAwesomeClassname: "simple-icons:go",
           style: {
-            color: "#47A248",
+            color: "#40a7e3",
           },
         },
         {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
+          skillName: "Solidity",
+          fontAwesomeClassname: "simple-icons:solidity",
           style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "GitHub Actions",
-          fontAwesomeClassname: "simple-icons:githubactions",
-          style: {
-            color: "#5b77ef",
+            color: "#4d4d4d",
           },
         },
       ],

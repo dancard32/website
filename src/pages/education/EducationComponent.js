@@ -8,6 +8,8 @@ import EducationImg from "./EducationImg";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
 
+// <Skills theme={props.theme} />
+
 function Education(props) {
   const theme = props.theme;
   return (
@@ -39,7 +41,6 @@ function Education(props) {
         </Fade>
         <Educations theme={props.theme} />
         <Certifications theme={props.theme} />
-        <Skills theme={props.theme} />
       </div>
       <Footer theme={props.theme} />
     </div>
