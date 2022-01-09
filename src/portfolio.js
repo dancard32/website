@@ -513,23 +513,6 @@ const projects = {
   coding: [
     {
       id: "4",
-      name: "google-translate-conversation",
-      url: "https://github.com/dancard32/google-translate-conversation",
-      description:
-        "This simple project is centered around having a conversation with another person of a different dialect while a Google Translate API automatically converts speech to text, then text to the other person's native language.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Github",
-          iconifyClass: "logos-github-icon",
-        },
-      ],
-    },
-    {
-      id: "3",
       name: "google-maps-tourist",
       url: "https://github.com/dancard32/google-maps-tourist",
       description:
@@ -554,6 +537,23 @@ const projects = {
         {
           name: "CSS",
           iconifyClass: "logos-css-3",
+        },
+        {
+          name: "Github",
+          iconifyClass: "logos-github-icon",
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "google-translate-conversation",
+      url: "https://github.com/dancard32/google-translate-conversation",
+      description:
+        "This simple project Google Translate API to automatically converts speech to text, then text to the other person's native language.",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
         },
         {
           name: "Github",
@@ -589,7 +589,7 @@ const projects = {
     {
       id: "1",
       name: "conway-game-of-life",
-      url: "https://en.wikipedia.org/wiki/Conway's_Game_of_Life",
+      url: "https://github.com/dancard32/conway-game-of-life",
       description:
         "This game is a cellular automaton devised by the mathematician John Conway to highlight that the evolution is determined by an initial state.",
       languages: [
