@@ -5,7 +5,7 @@ import { contactInfo } from "../../portfolio";
 
 export default function Contact() {
   return (
-    <div className="main contact-margin-top" id="contact">
+    <div className="main contact-margin-top">
       <div className="contact-div-main">
         <div className="contact-header">
           <h1 className="heading contact-title">{contactInfo.title}</h1>
