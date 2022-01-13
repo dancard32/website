@@ -577,7 +577,7 @@ const projects = {
       name: "2Kw Krypton Hall Effect Thruster",
       url: "2kW HET.pdf",
       description:
-        "Using Fusion 360, designed a Hall Effect Thruster from start to finish adopting first-principles and industry standards. Wrote a custom Python3 CFD script to analyze gas flow from from the anode/gas distributor through the inner channel. Iterated design to allow for re-use of stock material to reduce the cost of manufacturing on ceramics and metal walls",
+        "Using Fusion 360, designed a Hall Effect Thruster from start to finish adopting first-principles and industry standards. Wrote a custom Python3 CFD script to analyze gas flow from from the anode/gas distributor through the inner channel.",
       img: "HET.webp",
       software: "Python",
     },
@@ -586,16 +586,16 @@ const projects = {
       name: "Supersonic Engine Analysis",
       url: "Supersonic Engine Analysis.pdf",
       description:
-        "In my graduate computational fluid dynamics course, I used finite-element analysis and mesh adaptation to approximate the flow fields throughout a ramjet. We varied the attack angle to determine the most effective angle and correlated to the trained Mach diamonds throughout the inlets interior. This project was written entirely in the Python3 environment with minimal additional library imports",
+        "In my graduate CFD course, used finite-element analysis and mesh adaptation to approximate the flow fields through a ramjet. While varying the attack angle, determined the most effective angle. This project was written entirely in the Python3 environment with minimal additional library imports.",
       img: "ramjet_diag.webp",
       software: "Python",
     },
     {
       id: "5",
-      name: "Analysis of Regeneratively Cooled Nozzle Channels",
+      name: "Analysis of Cooled Nozzle Channels",
       url: "Regeneratively Cooled Nozzle Channels.pdf",
       description:
-        "In my graduate computational methods for aerospace engineering, I successfully simulated the heat flow through a Regeneratively cooled nozzle channel. In this project I provide an in-depth analysis of the effects of notching the nozzle boundaries and how it effects how much heat flux can be transferred in the steady state.",
+        "In my graduate computational methods for aerospace engineering, simulated the heat flow through a Regeneratively cooled nozzle channel.",
       img: "ssme25.webp",
       software: "Python, Matlab",
     },
@@ -604,26 +604,25 @@ const projects = {
       name: "Lunar Lander Truss Simulation",
       url: "Lunar Lander Truss.pdf",
       description:
-        "This project for my graduate computational methods for aerospace engineering simulated the deformations of a truss during a lunar touchdown. In this project I implemented several solvers and performed convergence study's and confirmed convergence rates across each integration scheme.",
+        "In my graduate computational methods for aerospace engineering I simulated the deformations of a truss during a lunar touchdown.",
       img: "truss_deform.gif",
       software: "Matlab",
     },
     {
       id: "3",
-      name: "Voyager 2 Deep Space Mission Simulation",
+      name: "Voyager 2 Mission Simulation",
       url: "Voyager 2.pdf",
       description:
-        "The goal of this project is to simulate Voyager 2's mission through the solar system stepping through all the numerous flyby's of the four gas giants. This project analyzes the trajectories from Voyager 2, the velocities and an in-depth analysis into the possibilities that arise from simplifications and or numerical inaccuracies.",
+        "This project simulated Voyager 2's mission through the solar system stepping through all the numerous flyby's of the four gas giants. In this I analyzed the trajectories from Voyager 2, and its velocities.",
       img: "voyager2.webp",
       software: "Matlab",
     },
     {
       id: "2",
-      name:
-        "An Analysis of Facility Effects on Electric Propulsion Performance",
+      name: "Analysis of Facility Effects",
       url: "Facility Effects.pdf",
       description:
-        "This paper was written to provide an overview into the past research conducted on facility effects, and the various ways that facilities effect the performance of electric propulsion. Here is a link to the report that provides key insight into how the performance is impacted.",
+        "This paper was written to provide an overview into the past research conducted on facility effects, and the various ways that facilities effect the performance of electric propulsion.",
       img: "facility_effects.webp",
       software: "Matlab",
     },
@@ -632,7 +631,7 @@ const projects = {
       name: "2019 PEPL Research",
       url: "SURE 2019 Proposal.pdf",
       description:
-        "Over summer 2019, I had the opportunity to conduct research at the Plasmadynamics and Electric Propulsion Laboratory. Through my time there I repaired our motion stages to improve their performance when in vacuum. My main focus of improving the performance was to interface the motion stages with incremental encoders that would allow for the easy measurement of a motion stages position.",
+        "Summer 2019, I conducted research at the Plasmadynamics and Electric Propulsion Laboratory. Through my time there I repaired our motion stages to improve their accuracy, and life-time when in vacuum.",
       img: "lilac.webp",
       software: "Fusion 360, Matlab, ExpressPCB",
     },
@@ -641,7 +640,7 @@ const projects = {
       name: "Hovercraft Design Project",
       url: "Hovercraft Presentation.pdf",
       description:
-        "In my undergraduate systems engineering class we were tasked with creating a timeline of designing a hovercraft, creating preliminary designs and then testing and iterating the designs. This project allowed us to determine and mitigate most of the risks that were required for this project. Highlighted below is our final presentation with a system overview of all the hardwork that we all contributed.",
+        "In my undergraduate systems engineering class we created preliminary hovercraft design and then iterated these designs. These showcases our final result.",
       img: "hovercraft.webp",
       software: "Arduino, CATIA, Fusion 360, Matlab",
     },

@@ -73,6 +73,17 @@
   margin-top: 60px;
 }
 
+.repo-proj-description {
+  word-wrap: break-word;
+  text-align: left;
+  display: -webkit-box;
+  font-family: "Google Sans Regular";
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 1380px) {
   .projects-heading-text {
     font-size: 50px;
@@ -117,5 +128,11 @@
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 60px;
+  }
+
+  .repo-proj-description {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }

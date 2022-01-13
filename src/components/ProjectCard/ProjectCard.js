@@ -25,7 +25,7 @@ export default function ProjectCard({ repo, theme }) {
   });
 
   return (
-    <div>
+    <div margin="auto">
       <Fade bottom duration={2000} distance="40px">
         <div
           {...styles}
@@ -38,7 +38,7 @@ export default function ProjectCard({ repo, theme }) {
               {repo.name}
             </p>
           </div>
-          <p className="repo-description" style={{ color: theme.text }}>
+          <p className="repo-proj-description" style={{ color: theme.text }}>
             {repo.description}
           </p>
           <div className="repo-details">

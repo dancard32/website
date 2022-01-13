@@ -55,14 +55,15 @@
   margin-right: 0.3rem;
 }
 
-.repo-description {
+.repo-proj-description {
   word-wrap: break-word;
   text-align: left;
   display: -webkit-box;
   font-family: "Google Sans Regular";
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
-  margin-bottom: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .repo-details {
@@ -93,8 +94,10 @@
     font-size: 16px;
   }
 
-  .repo-description {
+  .repo-proj-description {
     font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .repo-details {

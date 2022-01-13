@@ -47,11 +47,10 @@ export default function EngineeringCard({ repo, theme }) {
               />
 
               <p className="repo-description" style={{ color: theme.text }}>
-                {repo.description}
-                <br />
-                <br />
-                <br />
-                Software used: {repo.software}
+                {repo.description}{" "}
+              </p>
+              <p className="software-used" style={{ color: theme.text }}>
+                Software used: {repo.software}{" "}
               </p>
             </div>
           </a>
