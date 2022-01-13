@@ -19,7 +19,7 @@ export default function EngineeringCard({ repo, theme }) {
   });
 
   return (
-    <div className="repo-engr-cards-div-main">
+    <div>
       <Fade bottom duration={2000} distance="40px">
         <div
           {...styles}
@@ -42,7 +42,7 @@ export default function EngineeringCard({ repo, theme }) {
                 className="engineering-card-logo"
                 src={require(`../../assets/images/${repo.img}`)}
                 alt=""
-                width="100%"
+                width="75%"
                 position="bottom"
               />
 

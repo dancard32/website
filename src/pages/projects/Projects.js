@@ -92,15 +92,15 @@ function Projects(props) {
           </div>
         </Fade>
       </div>
-      <div className="repo-cards-div-main">
+      <div className="repo-engr-cards-div-main">
         {projects.engr.map((repo) => {
           return <EngineeringCard repo={repo} theme={theme} />;
         })}
       </div>
-      <br />
-      <br />
-      <br />
 
+      <br />
+      <br />
+      <br />
       <br />
       <br />
       <Footer theme={props.theme} onToggle={props.onToggle} />

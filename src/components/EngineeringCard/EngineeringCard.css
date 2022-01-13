@@ -62,15 +62,7 @@
   font-family: "Google Sans Regular";
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
-}
-
-.repo-software {
-  word-wrap: break-word;
-  text-align: left;
-  display: -webkit-box;
-  font-family: "Google Sans Regular";
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
+  margin-bottom: 150px;
 }
 
 .repo-details {
@@ -86,6 +78,16 @@
   margin-right: auto;
 }
 
+.repo-engr-cards-div-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(700px, 1fr));
+  gap: 1rem 1rem;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 60px;
+}
+
 @media (max-width: 768px) {
   .repo-name {
     font-size: 16px;
@@ -93,6 +95,13 @@
 
   .repo-description {
     font-size: 14px;
+    word-wrap: break-word;
+    text-align: left;
+    display: -webkit-box;
+    font-family: "Google Sans Regular";
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    margin-bottom: 100px;
   }
 
   .repo-details {
