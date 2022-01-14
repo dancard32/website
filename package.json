@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "Portfolio",
-  "homepage": "http://dancard32.github.io/website/",
+  "homepage": "http://dancard32.github.io/website",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",

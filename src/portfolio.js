@@ -466,7 +466,7 @@ const projects = {
       name: "google-maps-tourist",
       url: "https://github.com/dancard32/google-maps-tourist",
       description:
-        "This uses Google Maps API and from an beginning/end point will automatically generate a route to see tourist attractions en-route to the end location.",
+        "This uses Google Maps API and from an beginning/end point to automatically generate a tourist attraction route.",
       languages: [
         {
           name: "Python",
@@ -541,7 +541,7 @@ const projects = {
       name: "conway-game-of-life",
       url: "https://github.com/dancard32/conway-game-of-life",
       description:
-        "This game is a cellular automaton devised by the mathematician John Conway to highlight that the evolution is determined by an initial state.",
+        "This game is a cellular automaton devised by mathematician John Conway to highlight that evolution is determined by an initial state.",
       languages: [
         {
           name: "Python",
@@ -577,7 +577,7 @@ const projects = {
       name: "2Kw Krypton Hall Effect Thruster",
       url: "2kW HET.pdf",
       description:
-        "Using Fusion 360, designed a Hall Effect Thruster from start to finish adopting first-principles and industry standards. Wrote a custom Python3 CFD script to analyze gas flow from from the anode/gas distributor through the inner channel.",
+        "Using Fusion 360, designed a Hall Effect Thruster from start to finish adopting first-principles and industry standards.",
       img: "HET.webp",
       software: "Python",
     },
@@ -586,16 +586,16 @@ const projects = {
       name: "Supersonic Engine Analysis",
       url: "Supersonic Engine Analysis.pdf",
       description:
-        "In my graduate CFD course, used finite-element analysis and mesh adaptation to approximate the flow fields through a ramjet. While varying the attack angle, determined the most effective angle. This project was written entirely in the Python3 environment with minimal additional library imports.",
+        "In my graduate CFD course, used finite-element analysis and mesh adaptation to approximate the flow fields through a ramjet.",
       img: "ramjet_diag.webp",
       software: "Python",
     },
     {
       id: "5",
-      name: "Analysis of Cooled Nozzle Channels",
+      name: "Analysis of Cooled Nozzle",
       url: "Regeneratively Cooled Nozzle Channels.pdf",
       description:
-        "In my graduate computational methods for aerospace engineering, simulated the heat flow through a Regeneratively cooled nozzle channel.",
+        "In graduate computational methods for aerospace engineering, simulated the heat flow through a Regeneratively cooled channel.",
       img: "ssme25.webp",
       software: "Python, Matlab",
     },
@@ -613,7 +613,7 @@ const projects = {
       name: "Voyager 2 Mission Simulation",
       url: "Voyager 2.pdf",
       description:
-        "This project simulated Voyager 2's mission through the solar system stepping through all the numerous flyby's of the four gas giants. In this I analyzed the trajectories from Voyager 2, and its velocities.",
+        "This project simulated Voyager 2's mission through the solar system stepping through all the numerous flyby's of the four gas giants.",
       img: "voyager2.webp",
       software: "Matlab",
     },
@@ -622,7 +622,7 @@ const projects = {
       name: "Analysis of Facility Effects",
       url: "Facility Effects.pdf",
       description:
-        "This paper was written to provide an overview into the past research conducted on facility effects, and the various ways that facilities effect the performance of electric propulsion.",
+        "Researched the various ways that on-ground facilities effect the performance of electric propulsion.",
       img: "facility_effects.webp",
       software: "Matlab",
     },
@@ -631,7 +631,7 @@ const projects = {
       name: "2019 PEPL Research",
       url: "SURE 2019 Proposal.pdf",
       description:
-        "Summer 2019, I conducted research at the Plasmadynamics and Electric Propulsion Laboratory. Through my time there I repaired our motion stages to improve their accuracy, and life-time when in vacuum.",
+        "Summer 2019, I conducted research at PEPL. While there I repaired motion stages and improved their accuracy and life-time.",
       img: "lilac.webp",
       software: "Fusion 360, Matlab, ExpressPCB",
     },
@@ -640,7 +640,7 @@ const projects = {
       name: "Hovercraft Design Project",
       url: "Hovercraft Presentation.pdf",
       description:
-        "In my undergraduate systems engineering class we created preliminary hovercraft design and then iterated these designs. These showcases our final result.",
+        "In my undergraduate systems engineering class we created preliminary hovercraft design and then iterated these designs.",
       img: "hovercraft.webp",
       software: "Arduino, CATIA, Fusion 360, Matlab",
     },
