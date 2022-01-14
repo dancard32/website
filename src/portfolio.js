@@ -423,6 +423,17 @@ const experience = {
             "Developed an Arduino program interfaced with a custom circuit to improve measurements of motion stages and allow interface with LabVIEW, or display positions in real-time at 25% of alternatives. Additionally, I improved motion stage performance in vacuum by implementing heat elements at 10% cost of alternatives. Furthermore I designed housing to allow interfacing of an incremental encoder with an azimuthal stage to increase reliability in vacuum.",
           color: "#ee3c26",
         },
+        {
+          title: "Undergraduate Research Assistant",
+          company: "Composite Structures Laboratory",
+          company_url: "http://websites.umich.edu/~waascsl/index.html",
+          logo_path: "mcsl.webp",
+          duration: "January 2019 - June 2019",
+          location: "Office",
+          description:
+            "Designed a high-strength fixture in Fusion 360 to withstand 100kip forces while maximizing turnaround times between experiments to allow characterization of laminate angles in composite sandwiched fearing. Employed digital image correlation techniques to characterize composite performance during stress testing campaigns. Quantified macro-cracks within ply’s in specimens to their peak loads correlating the effects of macro-cracks of the yield strength of carbon-fiber composites",
+          color: "#c16bf2",
+        },
       ],
     },
     {
