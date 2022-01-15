@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ba3d14dfe66227e7b22cb36da4d99b2f",
+    "revision": "fa8e7a95030b09f5046b3689950623e2",
     "url": "/website/index.html"
   },
   {
-    "revision": "535b699070f891fa710a",
-    "url": "/website/static/css/main.7f8d8348.chunk.css"
+    "revision": "cbf7bbf430490a372136",
+    "url": "/website/static/css/main.85ac3df7.chunk.css"
   },
   {
-    "revision": "0594764d5d5836f9d68f",
-    "url": "/website/static/js/2.0a16814e.chunk.js"
+    "revision": "e65cb62d1b44d9a8cebd",
+    "url": "/website/static/js/2.45a93818.chunk.js"
   },
   {
     "revision": "32eaebd0b06f4bb60d5e9e5d0e7cd13e",
-    "url": "/website/static/js/2.0a16814e.chunk.js.LICENSE.txt"
+    "url": "/website/static/js/2.45a93818.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "535b699070f891fa710a",
-    "url": "/website/static/js/main.2189edf3.chunk.js"
+    "revision": "cbf7bbf430490a372136",
+    "url": "/website/static/js/main.d2cc597e.chunk.js"
   },
   {
     "revision": "1b8e03a275305b9f03bb",
@@ -48,16 +48,48 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/media/Applied Text Mining in Python.28f65c2f.pdf"
   },
   {
+    "revision": "affe6b34b5517d7bef680c781482534b",
+    "url": "/website/static/media/Arduino-logo.affe6b34.webp"
+  },
+  {
     "revision": "80d5121ddcb88820357b7ec487c493db",
     "url": "/website/static/media/Building Web Applications in Django.80d5121d.pdf"
+  },
+  {
+    "revision": "2cd2f98b390e4077ea98b9fbf043a35e",
+    "url": "/website/static/media/C++-logo.2cd2f98b.webp"
+  },
+  {
+    "revision": "d516aa48f3c9ba91d3b163a6d7a96c18",
+    "url": "/website/static/media/CSS3-logo.d516aa48.webp"
+  },
+  {
+    "revision": "80f7bd1efdc3cf2d6d1f6e6e4600a5af",
+    "url": "/website/static/media/Cura-logo.80f7bd1e.webp"
   },
   {
     "revision": "e6413c31180c114937622cbd9c4ed9c2",
     "url": "/website/static/media/ExoTerra_Logo.e6413c31.webp"
   },
   {
+    "revision": "8da9ead5ae634a65f1338bb876a8d6db",
+    "url": "/website/static/media/ExpressPCB-logo.8da9ead5.webp"
+  },
+  {
     "revision": "9dd114a44e69cefe4211ec8d25bf9250",
     "url": "/website/static/media/Facility Effects.9dd114a4.pdf"
+  },
+  {
+    "revision": "92d3112068aa522ee836dce904e41f93",
+    "url": "/website/static/media/Fusion-logo.92d31120.webp"
+  },
+  {
+    "revision": "546ddfd5d903430abbe4f7539e798e40",
+    "url": "/website/static/media/Git-logo.546ddfd5.webp"
+  },
+  {
+    "revision": "61628e5d5afd2d89fe2c1f4f0878419d",
+    "url": "/website/static/media/Github-logo.61628e5d.webp"
   },
   {
     "revision": "4457817ac2b9993c65e81aa05828fe9c",
@@ -88,12 +120,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/media/HET.785010ca.webp"
   },
   {
+    "revision": "58b986fe65304dd3e3ef8c384d0bc917",
+    "url": "/website/static/media/HTML5-logo.58b986fe.webp"
+  },
+  {
     "revision": "0faee5a77d0ec513da50b21bfc5d68cd",
     "url": "/website/static/media/Hovercraft Presentation.0faee5a7.pdf"
   },
   {
     "revision": "fd51ef4f9a1cb70c74f341e46ef05c0c",
     "url": "/website/static/media/Introduction to Data Science in Python.fd51ef4f.pdf"
+  },
+  {
+    "revision": "73acb315305de953379e4c096a12b7ff",
+    "url": "/website/static/media/LaTeX-logo.73acb315.webp"
+  },
+  {
+    "revision": "2696468af39afb60c7b988655fcf022d",
+    "url": "/website/static/media/Linux-logo.2696468a.webp"
   },
   {
     "revision": "9910a094be30e45abf3338b800e7ed53",
@@ -104,8 +148,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
+    "revision": "f31534daab8a0e6586c322a223632e68",
+    "url": "/website/static/media/Multimeter-logo.f31534da.webp"
+  },
+  {
     "revision": "76877c6acc416b7647d58f52b86a7ca2",
     "url": "/website/static/media/NG_Logo.76877c6a.webp"
+  },
+  {
+    "revision": "5d1c963db9d951daff64aee348ecf1ef",
+    "url": "/website/static/media/NX-logo.5d1c963d.webp"
+  },
+  {
+    "revision": "e97aadb9667c4e47c05655a3f9f57165",
+    "url": "/website/static/media/Oscope-logo.e97aadb9.webp"
   },
   {
     "revision": "93bfead8ffabe2a3948f27345fc3c788",
@@ -120,6 +176,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/media/Python Data Structures.65cc2d8c.pdf"
   },
   {
+    "revision": "d9fab85ae3722810a45498f89ac38dd3",
+    "url": "/website/static/media/Python-logo.d9fab85a.webp"
+  },
+  {
+    "revision": "618a56310f183ab95efa022db62ed4f9",
+    "url": "/website/static/media/React-logo.618a5631.webp"
+  },
+  {
     "revision": "2b1d1f8eeaeefad1ca75f80aacaa2b24",
     "url": "/website/static/media/Regeneratively Cooled Nozzle Channels.2b1d1f8e.pdf"
   },
@@ -132,12 +196,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/media/SURE 2019 Proposal.98ce9353.pdf"
   },
   {
+    "revision": "fd9d974b3e00efd7b35f5d4b29a55f65",
+    "url": "/website/static/media/SWX-logo.fd9d974b.webp"
+  },
+  {
+    "revision": "496efd8010c885bcf6296879a963a465",
+    "url": "/website/static/media/Sqlite-logo.496efd80.webp"
+  },
+  {
     "revision": "0431e3c2903f9030d98510fdbbf0ce46",
     "url": "/website/static/media/Supersonic Engine Analysis.0431e3c2.pdf"
   },
   {
     "revision": "7f5bdf606f78e1dd207531183319e4eb",
     "url": "/website/static/media/UM_Logo.7f5bdf60.webp"
+  },
+  {
+    "revision": "28e8b06e823f04487a0429be8acdb6d0",
+    "url": "/website/static/media/Ubuntu-logo.28e8b06e.webp"
   },
   {
     "revision": "7d49a231cff96722214f180d977c2dbc",
