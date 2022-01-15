@@ -223,7 +223,7 @@ const degrees = {
     {
       title: "University of Michigan - Ann Arbor",
       subtitle:
-        "Masters of Science in Engineering in Aerospace Engineering - Space Propulsion",
+        "Masters of Science in Engineering in Aerospace Engineering - Computational Methods",
       logo_path: "UM_Logo.webp",
       alt_name: "UM",
       duration: "August 2020 - May 2021",
