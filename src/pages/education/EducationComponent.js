@@ -3,7 +3,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import Educations from "../../containers/education/Educations";
 import Certifications from "../../containers/certifications/Certifications";
-import Skills from "../../containers/workingSkills/WorkingSkills";
+import WorkingSkills from "../../containers/workingSkills/WorkingSkills";
 import EducationImg from "./EducationImg";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
@@ -40,6 +40,7 @@ function Education(props) {
           </div>
         </Fade>
         <Educations theme={props.theme} />
+        <WorkingSkills theme={props.theme} />
         <Certifications theme={props.theme} />
       </div>
       <Footer theme={props.theme} />

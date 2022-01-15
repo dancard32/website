@@ -10,10 +10,17 @@
   font-size: 23px;
   margin-left: 10px;
 }
+.card-degree {
+  font-family: "Google Sans Medium";
+  font-size: 18px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
 
 .card-subtitle {
   font-family: "Google Sans Medium";
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 7px;
   margin-bottom: 5px;
   margin-left: 10px;
@@ -82,6 +89,10 @@
 
   .card-title {
     font-size: 20px;
+  }
+
+  .card-degree {
+    font-size: 18px;
   }
 
   .card-subtitle {

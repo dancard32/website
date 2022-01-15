@@ -2,7 +2,7 @@ import React from "react";
 import "./WorkingSkills.css";
 import { Fade } from "react-reveal";
 import { certifications } from "../../portfolio";
-import CertificationCard from "../../components/certificationCard/CertificationCard";
+import WorkingSkillsCard from "../../components/workingSkillsCard/WorkingSkillsCard";
 
 function WorkingSkills(props) {
   const theme = props.theme;
@@ -17,7 +17,7 @@ function WorkingSkills(props) {
       </div>
       <div className="certs-body-div">
         {certifications.skills.map((cert) => {
-          return <CertificationCard certificate={cert} theme={theme} />;
+          return <WorkingSkillsCard certificate={cert} theme={theme} />;
         })}
       </div>
     </div>

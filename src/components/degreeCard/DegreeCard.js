@@ -92,9 +92,12 @@ function DegreeCard(props) {
               <h2 className="card-title" style={{ color: "#FFFFFF" }}>
                 {degree.title}
               </h2>
-              <h3 className="card-subtitle" style={{ color: "#FFFFFF" }}>
-                {degree.subtitle}
+              <h3 className="card-degree" style={{ color: "#FFFFFF" }}>
+                {degree.degree_type}
               </h3>
+              <p className="card-subtitle" style={{ color: "#FFFFFF" }}>
+                {degree.subtitle}
+              </p>
             </div>
             <div className="body-header-duration">
               <h3 className="duration" style={{ color: "#FFFFFF" }}>
@@ -102,7 +105,7 @@ function DegreeCard(props) {
               </h3>
             </div>
           </div>
-          <div classname="body-content">
+          <div className="body-content">
             {degree.descriptions.map((sentence) => {
               return (
                 <p className="content-list" style={{ color: theme.text }}>
