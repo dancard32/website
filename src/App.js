@@ -10,10 +10,8 @@ import ReactGA from "react-ga";
 
 function App() {
   useEffect(() => {
-    if (settings.googleTrackingID) {
-      ReactGA.initialize(settings.googleTrackingID);
-      ReactGA.pageview(window.location.pathname + window.location.search);
-    }
+    ReactGA.initialize(settings.googleTrackingID);
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
