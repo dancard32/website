@@ -36,6 +36,16 @@ export default function Main(propss) {
               )}
             />
             <Route
+              path="/education"
+              render={(props) => (
+                <Education
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
               path="/experience"
               exact
               render={(props) => (
@@ -47,9 +57,9 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/education"
+              path="/projects"
               render={(props) => (
-                <Education
+                <Projects
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
@@ -58,7 +68,6 @@ export default function Main(propss) {
             />
             <Route
               path="/contact"
-              exact
               render={(props) => (
                 <Contact
                   {...props}
@@ -71,16 +80,6 @@ export default function Main(propss) {
               path="/splash"
               render={(props) => (
                 <Splash
-                  {...props}
-                  theme={propss.theme}
-                  setTheme={propss.setTheme}
-                />
-              )}
-            />
-            <Route
-              path="/projects"
-              render={(props) => (
-                <Projects
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
@@ -118,6 +117,16 @@ export default function Main(propss) {
               )}
             />
             <Route
+              path="/education"
+              render={(props) => (
+                <Education
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
               path="/experience"
               exact
               render={(props) => (
@@ -129,9 +138,9 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/education"
+              path="/projects"
               render={(props) => (
-                <Education
+                <Projects
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
@@ -140,19 +149,8 @@ export default function Main(propss) {
             />
             <Route
               path="/contact"
-              exact
               render={(props) => (
                 <Contact
-                  {...props}
-                  theme={propss.theme}
-                  setTheme={propss.setTheme}
-                />
-              )}
-            />
-            <Route
-              path="/projects"
-              render={(props) => (
-                <Projects
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
