@@ -1,92 +1,49 @@
 import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import BlogsImg from "./BlogsImg";
+import Educations from "../../containers/education/Educations";
+import Certifications from "../../containers/certifications/Certifications";
+import WorkingSkills from "../../containers/workingSkills/WorkingSkills";
+import EducationImg from "./EducationImg";
+import "./EducationComponent.css";
 import { Fade } from "react-reveal";
-import "./ContactComponent.css";
-import { greeting, contactPageData } from "../../portfolio.js";
-import { style } from "glamor";
 
-const ContactData = contactPageData.contactSection;
-const blogSection = contactPageData.blogSection;
+// <Skills theme={props.theme} />
 
 function ContactTEST(props) {
   const theme = props.theme;
-
-  const styles = style({
-    backgroundColor: `${theme.accentBright}`,
-    ":hover": {
-      boxShadow: `0 5px 15px ${theme.accentBright}`,
-    },
-  });
-
   return (
-    <div className="contact-main">
-      <Header theme={theme} setTheme={props.setTheme} />
-      <div className="basic-contact">
-        <Fade bottom duration={1000} distance="40px">
-          <div className="contact-heading-div">
-            <div className="contact-heading-img-div">
-              <img
-                className="profile-pic"
-                src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
-                alt=""
-              />
+    <div className="education-main">
+      <Header theme={props.theme} setTheme={props.setTheme} />
+      <div className="basic-education">
+        <Fade bottom duration={2000} distance="40px">
+          <div className="heading-div">
+            <div className="heading-img-div">
+              <EducationImg theme={theme} />
             </div>
-            <div className="contact-heading-text-div">
-              <h1
-                className="contact-heading-text"
-                style={{ color: theme.text }}
-              >
-                {ContactData["title"]}
+            <div className="heading-text-div">
+              <h1 className="heading-text" style={{ color: theme.text }}>
+                Education
               </h1>
+              <h3 className="heading-sub-text" style={{ color: theme.text }}>
+                Basic Qualification and Certifications
+              </h3>
               <p
-                className="contact-header-detail-text subTitle"
+                className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {ContactData["description"]}
+                Listed below are my professional education, and working skills,
+                as well as certifications that I have obtained relevant to my
+                engineering background.
               </p>
-              <SocialMedia />
-              <br />
-              <br />
-              <a
-                {...styles}
-                className="general-btn"
-                href={require(`../../assets/portfolioPDFs/${greeting.resumeLink}`)}
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                See my Resume
-              </a>
             </div>
           </div>
         </Fade>
-        <Fade bottom duration={1000} distance="40px">
-          <div className="blog-heading-div">
-            <div className="blog-heading-text-div">
-              <h1 className="blog-heading-text" style={{ color: theme.text }}>
-                {blogSection["title"]}
-              </h1>
-              <p
-                className="blog-header-detail-text subTitle"
-                style={{ color: theme.secondaryText }}
-              >
-                {blogSection["subtitle"]}
-              </p>
-              <div className="blogsite-btn-div">
-                <a {...styles} className="general-btn" href={blogSection.link}>
-                  My Github Profile
-                </a>
-              </div>
-            </div>
-            <div className="blog-heading-img-div">
-              <BlogsImg theme={theme} />
-            </div>
-          </div>
-        </Fade>
+        <Educations theme={props.theme} />
+        <WorkingSkills theme={props.theme} />
+        <Certifications theme={props.theme} />
       </div>
-      <Footer theme={props.theme} onToggle={props.onToggle} />
+      <Footer theme={props.theme} />
     </div>
   );
 }
