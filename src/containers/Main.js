@@ -67,7 +67,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/contactme"
+              path="/contact"
               render={(props) => (
                 <Contact
                   {...props}
@@ -148,7 +148,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/contactme"
+              path="/contact"
               render={(props) => (
                 <Contact
                   {...props}
