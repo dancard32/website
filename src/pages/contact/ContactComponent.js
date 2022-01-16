@@ -9,11 +9,10 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import BlogsImg from "./BlogsImg";
 import "./ContactComponent.css";
 
-const ContactData = contactPageData.contactSection;
-const blogSection = contactPageData.blogSection;
-
 function Contact(props) {
   const theme = props.theme;
+  const ContactData = contactPageData.contactSection;
+  const blogSection = contactPageData.blogSection;
 
   const styles = style({
     backgroundColor: `${theme.accentBright}`,
