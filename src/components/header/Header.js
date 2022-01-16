@@ -133,6 +133,17 @@ function Header(props) {
                 Contact and Resume
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                className="cr"
+                tag={Link}
+                to="/contactTEST"
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.text }}
+              >
+                Contact - TEST
+              </NavLink>
+            </li>
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>
