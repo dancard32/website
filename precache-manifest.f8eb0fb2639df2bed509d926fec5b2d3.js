@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d94eb1a4acf32924c0628db4d938ac3d",
+    "revision": "468e90a3ec922a69f9f286f1e74101e0",
     "url": "/website/index.html"
   },
   {
-    "revision": "8165f6368b8e3736e01d",
-    "url": "/website/static/css/main.85ac3df7.chunk.css"
+    "revision": "13455cf061840a426563",
+    "url": "/website/static/css/main.34c6460d.chunk.css"
   },
   {
-    "revision": "15935ccd203b13cd1a85",
-    "url": "/website/static/js/2.60229802.chunk.js"
+    "revision": "862a4b22d9b7a3abad43",
+    "url": "/website/static/js/2.16f2f33e.chunk.js"
   },
   {
     "revision": "32eaebd0b06f4bb60d5e9e5d0e7cd13e",
-    "url": "/website/static/js/2.60229802.chunk.js.LICENSE.txt"
+    "url": "/website/static/js/2.16f2f33e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8165f6368b8e3736e01d",
-    "url": "/website/static/js/main.b7401a86.chunk.js"
+    "revision": "13455cf061840a426563",
+    "url": "/website/static/js/main.303f8a88.chunk.js"
   },
   {
     "revision": "1b8e03a275305b9f03bb",
@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/media/Applied Text Mining in Python.28f65c2f.pdf"
   },
   {
+    "revision": "07a30b676295bd2b6a71bf886b426f26",
+    "url": "/website/static/media/Arduino-logo-square.07a30b67.webp"
+  },
+  {
     "revision": "affe6b34b5517d7bef680c781482534b",
     "url": "/website/static/media/Arduino-logo.affe6b34.webp"
   },
@@ -58,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2cd2f98b390e4077ea98b9fbf043a35e",
     "url": "/website/static/media/C++-logo.2cd2f98b.webp"
+  },
+  {
+    "revision": "4e2625a8b3b9fbda57cbcbcec3c1a8da",
+    "url": "/website/static/media/CATIA-logo.4e2625a8.webp"
   },
   {
     "revision": "d516aa48f3c9ba91d3b163a6d7a96c18",
@@ -78,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9dd114a44e69cefe4211ec8d25bf9250",
     "url": "/website/static/media/Facility Effects.9dd114a4.pdf"
+  },
+  {
+    "revision": "7118f8a0982bfa65020fd4e2d4db735a",
+    "url": "/website/static/media/Fusion-logo-square.7118f8a0.webp"
   },
   {
     "revision": "92d3112068aa522ee836dce904e41f93",
@@ -142,6 +154,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9910a094be30e45abf3338b800e7ed53",
     "url": "/website/static/media/Lunar Lander Truss.9910a094.pdf"
+  },
+  {
+    "revision": "4f2cd2628a2aca1ca1eeae104cc77c18",
+    "url": "/website/static/media/Matlab-logo.4f2cd262.webp"
   },
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
@@ -320,8 +336,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/media/hovercraft.bc39c6dc.webp"
   },
   {
-    "revision": "43da59243bff18e806d843f15c0f0485",
-    "url": "/website/static/media/lilac.43da5924.webp"
+    "revision": "5a5f6ba63e1d7a58fe899b37b02b72fa",
+    "url": "/website/static/media/lilac.5a5f6ba6.webp"
   },
   {
     "revision": "bb19f867f886ec7c61b5249d9d12ac19",
@@ -376,8 +392,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/media/ramjet_diag.1312f9da.webp"
   },
   {
-    "revision": "7d7fb706fdd63d64ea3596d813fff3cf",
-    "url": "/website/static/media/ssme25.7d7fb706.webp"
+    "revision": "baf0ccb138ef21c1e492564b70441a80",
+    "url": "/website/static/media/ssme25.baf0ccb1.webp"
   },
   {
     "revision": "5dd1c6bc3e186c30c93c5a9e01ba9867",
