@@ -715,7 +715,12 @@ const projects = {
       description:
         "Using Fusion 360, designed a Hall Effect Thruster from start to finish adopting first-principles and industry standards.",
       img: "HET.webp",
-      software: "Python",
+      software: [
+        {
+          name: "Python",
+          img_path: "Python-logo.webp",
+        },
+      ],
     },
     {
       id: "6",
@@ -724,7 +729,12 @@ const projects = {
       description:
         "In my graduate CFD course, used finite-element analysis and mesh adaptation to approximate the flow fields through a ramjet.",
       img: "ramjet_diag.webp",
-      software: "Python",
+      software: [
+        {
+          name: "Python",
+          img_path: "Python-logo.webp",
+        },
+      ],
     },
     {
       id: "5",
@@ -733,7 +743,16 @@ const projects = {
       description:
         "In graduate computational methods for aerospace engineering, simulated the heat flow through a Regeneratively cooled channel.",
       img: "ssme25.webp",
-      software: "Python, Matlab",
+      software: [
+        {
+          name: "Python",
+          img_path: "Python-logo.webp",
+        },
+        {
+          name: "Matlab",
+          img_path: "Matlab-logo.webp",
+        },
+      ],
     },
     {
       id: "4",
@@ -742,7 +761,12 @@ const projects = {
       description:
         "In my graduate computational methods for aerospace engineering I simulated the deformations of a truss during a lunar touchdown.",
       img: "truss_deform.gif",
-      software: "Matlab",
+      software: [
+        {
+          name: "Matlab",
+          img_path: "Matlab-logo.webp",
+        },
+      ],
     },
     {
       id: "3",
@@ -751,7 +775,12 @@ const projects = {
       description:
         "This project simulated Voyager 2's mission through the solar system stepping through all the numerous flyby's of the four gas giants.",
       img: "voyager2.webp",
-      software: "Matlab",
+      software: [
+        {
+          name: "Matlab",
+          img_path: "Matlab-logo.webp",
+        },
+      ],
     },
     {
       id: "2",
@@ -760,7 +789,12 @@ const projects = {
       description:
         "Researched the various ways that on-ground facilities effect the performance of electric propulsion.",
       img: "facility_effects.webp",
-      software: "Matlab",
+      software: [
+        {
+          name: "Matlab",
+          img_path: "Matlab-logo.webp",
+        },
+      ],
     },
     {
       id: "1",
@@ -769,7 +803,20 @@ const projects = {
       description:
         "Summer 2019, I conducted research at PEPL. While there I repaired motion stages and improved their accuracy and life-time.",
       img: "lilac.webp",
-      software: "Fusion 360, Matlab, ExpressPCB",
+      software: [
+        {
+          name: "Fusion 360",
+          img_path: "Fusion-logo-square.webp",
+        },
+        {
+          name: "Matlab",
+          img_path: "Matlab-logo.webp",
+        },
+        {
+          name: "ExpressPCB",
+          img_path: "ExpressPCB-logo.webp",
+        },
+      ],
     },
     {
       id: "0",
@@ -778,7 +825,24 @@ const projects = {
       description:
         "In my undergraduate systems engineering class we created preliminary hovercraft design and then iterated these designs.",
       img: "hovercraft.webp",
-      software: "Arduino, CATIA, Fusion 360, Matlab",
+      software: [
+        {
+          name: "Arduino",
+          img_path: "Arduino-logo-square.webp",
+        },
+        {
+          name: "Matlab",
+          img_path: "Matlab-logo.webp",
+        },
+        {
+          name: "Fusion 360",
+          img_path: "Fusion-logo-square.webp",
+        },
+        {
+          name: "CATIA",
+          img_path: "CATIA-logo.webp",
+        },
+      ],
     },
   ],
 };

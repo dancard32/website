@@ -2,6 +2,7 @@ import React from "react";
 import "./EngineeringCard.css";
 import { Fade } from "react-reveal";
 import { style } from "glamor";
+import EngineeringSoftwares from "../engineeringSoftwares/engineeringSoftwares";
 
 export default function EngineeringCard({ repo, theme }) {
   const styles = style({
@@ -50,7 +51,7 @@ export default function EngineeringCard({ repo, theme }) {
                 {repo.description}{" "}
               </p>
               <p className="software-used" style={{ color: theme.text }}>
-                Software used: {repo.software}{" "}
+                <EngineeringSoftwares logos={repo.software} />
               </p>
             </div>
           </a>
