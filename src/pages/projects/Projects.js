@@ -47,6 +47,16 @@ function Projects(props) {
               >
                 {codingSection["description"]}
               </p>
+
+              <a
+                {...styles}
+                className="general-btn"
+                href="https://github.com/dancard32"
+                target="_Blank"
+                rel="noopener noreferrer"
+              >
+                More Projects (Github){" "}
+              </a>
             </div>
           </div>
         </Fade>
@@ -56,20 +66,6 @@ function Projects(props) {
           return <ProjectCard repo={repo} theme={theme} />;
         })}
       </div>
-
-      <br />
-      <br />
-      <br />
-
-      <a
-        {...styles}
-        className="general-btn"
-        href="https://github.com/dancard32"
-        target="_Blank"
-        rel="noopener noreferrer"
-      >
-        More Projects (Github){" "}
-      </a>
 
       <div className="basic-projects">
         <Fade bottom duration={2000} distance="40px">
@@ -99,11 +95,6 @@ function Projects(props) {
           return <EngineeringCard repo={repo} theme={theme} />;
         })}
       </div>
-
-      <br />
-      <br />
-      <br />
-      <br />
       <br />
       <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
