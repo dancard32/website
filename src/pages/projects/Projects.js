@@ -1,14 +1,16 @@
 import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
+import { Fade } from "react-reveal";
+import { style } from "glamor";
+
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import EngineeringCard from "../../components/EngineeringCard/EngineeringCard";
-import { Fade } from "react-reveal";
-import { projectsHeader, projects } from "../../portfolio.js";
-import "./Projects.css";
+
 import ProjectsImg from "./ProjectsImg";
 import EngineeringImg from "./EngineeringImg";
-import { style } from "glamor";
+import "./Projects.css";
+import { projectsHeader, projects } from "../../portfolio.js";
 
 const codingSection = projectsHeader.codingSection;
 const engineeringSection = projectsHeader.engineeringSection;

@@ -125,7 +125,7 @@ function Header(props) {
             <li>
               <NavLink
                 className="cr"
-                to="/contact"
+                to="/contactme"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
