@@ -1,12 +1,13 @@
 import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import BlogsImg from "./BlogsImg";
-import { Fade } from "react-reveal";
-import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 import { style } from "glamor";
+import { Fade } from "react-reveal";
+
+import SocialMedia from "../../components/socialMedia/SocialMedia";
+import BlogsImg from "./BlogsImg";
+import "./ContactComponent.css";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
@@ -30,7 +31,7 @@ function Contact(props) {
             <div className="contact-heading-img-div">
               <img
                 className="profile-pic"
-                src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
+                src={`../../assets/images/${ContactData["profile_image_path"]}`}
                 alt=""
               />
             </div>
@@ -53,7 +54,7 @@ function Contact(props) {
               <a
                 {...styles}
                 className="general-btn"
-                href={require(`../../assets/portfolioPDFs/${greeting.resumeLink}`)}
+                href={`../../assets/portfolioPDFs/${greeting.resumeLink}`}
                 target="_blank"
                 rel="noreferrer noopener"
               >
