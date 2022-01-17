@@ -7,6 +7,7 @@ import { Fade } from "react-reveal";
 
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import BlogsImg from "./BlogsImg";
+import ContactImg from "./ContactImg";
 import "./ContactComponent.css";
 
 function Contact(props) {
@@ -33,6 +34,7 @@ function Contact(props) {
                 src={`../../assets/images/${ContactData["profile_image_path"]}`}
                 alt=""
               />
+              <ContactImg theme={theme} />
             </div>
             <div className="contact-heading-text-div">
               <h1
@@ -53,7 +55,7 @@ function Contact(props) {
               <a
                 {...styles}
                 className="general-btn"
-                href={`../../assets/portfolioPDFs/${greeting.resumeLink}`}
+                href={require(`../../assets/portfolioPDFs/${greeting.resumeLink}`)}
                 target="_blank"
                 rel="noreferrer noopener"
               >
@@ -62,6 +64,8 @@ function Contact(props) {
             </div>
           </div>
         </Fade>
+
+        <br />
         <Fade bottom duration={1000} distance="40px">
           <div className="blog-heading-div">
             <div className="blog-heading-text-div">
