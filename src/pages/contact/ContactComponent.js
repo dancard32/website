@@ -55,7 +55,7 @@ function Contact(props) {
               <a
                 {...styles}
                 className="general-btn"
-                href={require(`../../assets/portfolioPDFs/${greeting.resumeLink}`)}
+                href={`../../assets/portfolioPDFs/${greeting.resumeLink}`}
                 target="_blank"
                 rel="noreferrer noopener"
               >
