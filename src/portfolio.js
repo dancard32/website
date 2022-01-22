@@ -232,6 +232,8 @@ const degrees = {
         "Accolades: Graduate Student Instructor",
       ],
       website_link: "https://aero.engin.umich.edu/",
+      GPA: "GPA: 3.91",
+      degree_path: "Diploma_MSE.pdf",
     },
     {
       title: "University of Michigan - Ann Arbor",
@@ -245,6 +247,8 @@ const degrees = {
         "Accolades: Summa Cum Laude, Dean’s List, University Honors, 1st Generation Engineer, 1st Generation STEM",
       ],
       website_link: "https://aero.engin.umich.edu/",
+      GPA: "GPA: 3.91",
+      degree_path: "Diploma_BSE.pdf",
     },
   ],
 };

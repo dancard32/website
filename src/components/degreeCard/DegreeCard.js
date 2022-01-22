@@ -92,9 +92,23 @@ function DegreeCard(props) {
               <h2 className="card-title" style={{ color: "#FFFFFF" }}>
                 {degree.title}
               </h2>
-              <h3 className="card-degree" style={{ color: "#FFFFFF" }}>
-                {degree.degree_type}
-              </h3>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={require(`../../assets/portfolioPDFs/${degree.degree_path}`)}
+                style={{ textDecoration: "none" }}
+              >
+                <h3
+                  {...button_visit}
+                  style={{
+                    textDecoration: "none",
+                    backgroundColor: theme.accentBright,
+                    width: "350px",
+                  }}
+                >
+                  {degree.degree_type}
+                </h3>
+              </a>
               <p className="card-subtitle" style={{ color: "#FFFFFF" }}>
                 {degree.subtitle}
               </p>
@@ -102,6 +116,10 @@ function DegreeCard(props) {
             <div className="body-header-duration">
               <h3 className="duration" style={{ color: "#FFFFFF" }}>
                 {degree.duration}
+
+                <br />
+                <br />
+                {degree.GPA}
               </h3>
             </div>
           </div>
