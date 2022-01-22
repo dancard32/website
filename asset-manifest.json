@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/website/static/css/main.34c6460d.chunk.css",
-    "main.js": "/website/static/js/main.2f529a90.chunk.js",
-    "main.js.map": "/website/static/js/main.2f529a90.chunk.js.map",
+    "main.js": "/website/static/js/main.7e8ea664.chunk.js",
+    "main.js.map": "/website/static/js/main.7e8ea664.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.acca61c5.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.acca61c5.js.map",
-    "static/js/2.d1a4e587.chunk.js": "/website/static/js/2.d1a4e587.chunk.js",
-    "static/js/2.d1a4e587.chunk.js.map": "/website/static/js/2.d1a4e587.chunk.js.map",
+    "static/js/2.8fc55763.chunk.js": "/website/static/js/2.8fc55763.chunk.js",
+    "static/js/2.8fc55763.chunk.js.map": "/website/static/js/2.8fc55763.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.23a2bec83344f7660310531f47b46d0e.js": "/website/precache-manifest.23a2bec83344f7660310531f47b46d0e.js",
+    "precache-manifest.f72f0e789842209e3ce0477dfdbe8ff6.js": "/website/precache-manifest.f72f0e789842209e3ce0477dfdbe8ff6.js",
     "service-worker.js": "/website/service-worker.js",
     "static/css/main.34c6460d.chunk.css.map": "/website/static/css/main.34c6460d.chunk.css.map",
-    "static/js/2.d1a4e587.chunk.js.LICENSE.txt": "/website/static/js/2.d1a4e587.chunk.js.LICENSE.txt",
+    "static/js/2.8fc55763.chunk.js.LICENSE.txt": "/website/static/js/2.8fc55763.chunk.js.LICENSE.txt",
     "static/media/2kW HET.pdf": "/website/static/media/2kW HET.c7f5a19b.pdf",
     "static/media/index.css": "/website/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Applied Machine Learning in Python.pdf": "/website/static/media/Applied Machine Learning in Python.c3c10b67.pdf",
@@ -25,6 +25,8 @@
     "static/media/CATIA-logo.webp": "/website/static/media/CATIA-logo.4e2625a8.webp",
     "static/media/CSS3-logo.webp": "/website/static/media/CSS3-logo.d516aa48.webp",
     "static/media/Cura-logo.webp": "/website/static/media/Cura-logo.80f7bd1e.webp",
+    "static/media/Diploma_BSE.pdf": "/website/static/media/Diploma_BSE.22875b7a.pdf",
+    "static/media/Diploma_MSE.pdf": "/website/static/media/Diploma_MSE.174e9c83.pdf",
     "static/media/ExoTerra_Logo.webp": "/website/static/media/ExoTerra_Logo.e6413c31.webp",
     "static/media/ExpressPCB-logo.webp": "/website/static/media/ExpressPCB-logo.8da9ead5.webp",
     "static/media/Facility Effects.pdf": "/website/static/media/Facility Effects.9dd114a4.pdf",
@@ -89,8 +91,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.acca61c5.js",
-    "static/js/2.d1a4e587.chunk.js",
+    "static/js/2.8fc55763.chunk.js",
     "static/css/main.34c6460d.chunk.css",
-    "static/js/main.2f529a90.chunk.js"
+    "static/js/main.7e8ea664.chunk.js"
   ]
 }

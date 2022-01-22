@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c162108426c174eefc95604234c1d58b",
+    "revision": "966e55b557b1375e2880f35d5c83dcec",
     "url": "/website/index.html"
   },
   {
-    "revision": "5a3ff601de3d47005662",
+    "revision": "e324fd3d6ae44d046154",
     "url": "/website/static/css/main.34c6460d.chunk.css"
   },
   {
-    "revision": "feaa34d70012e5c61e8f",
-    "url": "/website/static/js/2.d1a4e587.chunk.js"
+    "revision": "c16cc609408a5c8b859a",
+    "url": "/website/static/js/2.8fc55763.chunk.js"
   },
   {
     "revision": "32eaebd0b06f4bb60d5e9e5d0e7cd13e",
-    "url": "/website/static/js/2.d1a4e587.chunk.js.LICENSE.txt"
+    "url": "/website/static/js/2.8fc55763.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5a3ff601de3d47005662",
-    "url": "/website/static/js/main.2f529a90.chunk.js"
+    "revision": "e324fd3d6ae44d046154",
+    "url": "/website/static/js/main.7e8ea664.chunk.js"
   },
   {
     "revision": "1b8e03a275305b9f03bb",
@@ -74,6 +74,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "80f7bd1efdc3cf2d6d1f6e6e4600a5af",
     "url": "/website/static/media/Cura-logo.80f7bd1e.webp"
+  },
+  {
+    "revision": "22875b7acf74af5f2fd5c56de952e6e9",
+    "url": "/website/static/media/Diploma_BSE.22875b7a.pdf"
+  },
+  {
+    "revision": "174e9c83f8a172bc6edffc306e5c35aa",
+    "url": "/website/static/media/Diploma_MSE.174e9c83.pdf"
   },
   {
     "revision": "e6413c31180c114937622cbd9c4ed9c2",
