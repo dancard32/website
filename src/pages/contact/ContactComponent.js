@@ -9,6 +9,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import BlogsImg from "./BlogsImg";
 import ContactImg from "./ContactImg";
 import "./ContactComponent.css";
+import ResumeLink from "./ResumeLink";
 
 function Contact(props) {
   const theme = props.theme;
@@ -52,14 +53,8 @@ function Contact(props) {
               <SocialMedia />
               <br />
               <br />
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={require(`../../assets/portfolioPDFs/${greeting.resumeLink}`)}
-                style={{ textDecoration: "none" }}
-              >
-                See my Resume
-              </a>
+
+              <ResumeLink repo={greeting} theme={theme} />
             </div>
           </div>
         </Fade>
