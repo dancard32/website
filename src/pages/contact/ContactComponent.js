@@ -53,11 +53,10 @@ function Contact(props) {
               <br />
               <br />
               <a
-                {...styles}
-                className="general-btn"
-                href={`../../assets/portfolioPDFs/${greeting.resumeLink}`}
                 target="_blank"
-                rel="noreferrer noopener"
+                rel="noopener noreferrer"
+                href={require(`../../assets/portfolioPDFs/${greeting.resumeLink}`)}
+                style={{ textDecoration: "none" }}
               >
                 See my Resume
               </a>
@@ -79,7 +78,13 @@ function Contact(props) {
                 {blogSection["subtitle"]}
               </p>
               <div className="blogsite-btn-div">
-                <a {...styles} className="general-btn" href={blogSection.link}>
+                <a
+                  {...styles}
+                  className="general-btn"
+                  href={blogSection.link}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   My Github Profile
                 </a>
               </div>

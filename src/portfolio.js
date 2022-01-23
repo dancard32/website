@@ -721,6 +721,10 @@ const projects = {
       img: "HET.webp",
       software: [
         {
+          name: "Fusion 360",
+          img_path: "Fusion-logo-square.webp",
+        },
+        {
           name: "Python",
           img_path: "Python-logo.webp",
         },
