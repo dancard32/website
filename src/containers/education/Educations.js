@@ -21,6 +21,19 @@ function Educations(props) {
           return <DegreeCard degree={degree} theme={theme} />;
         })}
       </div>
+
+      <div className="educations-header-div">
+        <Fade bottom duration={2000} distance="20px">
+          <h1 className="educations-header" style={{ color: theme.text }}>
+            Degree in Progress
+          </h1>
+        </Fade>
+      </div>
+      <div className="educations-body-div">
+        {degrees.inprogress.map((inprogress) => {
+          return <DegreeCard degree={inprogress} theme={theme} />;
+        })}
+      </div>
     </div>
   );
 }

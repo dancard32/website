@@ -251,6 +251,20 @@ const degrees = {
       degree_path: "Diploma_BSE.pdf",
     },
   ],
+  inprogress: [
+    {
+      title: "Georgia Institute of Technology",
+      degree_type: "Masters of Science",
+      subtitle: "Computer Science - Computing Systems",
+      logo_path: "GT_logo.webp",
+      alt_name: "GT",
+      duration: "August 2022 - May 2024",
+      descriptions: ["Graduate Coursework: Machine learning for trading"],
+      website_link: "https://omscs.gatech.edu/",
+      GPA: "GPA: N/A",
+      degree_path: "work-in-progress-logo.png",
+    },
+  ],
 };
 
 const certifications = {
@@ -601,6 +615,35 @@ const projectsHeader = {
 
 const projects = {
   coding: [
+    {
+      id: "5",
+      name: "spotify-player",
+      url: "https://github.com/dancard32/spotify-player",
+      description:
+        "This project uses a Raspberry Pi integrated with Spotify's web API and RFID module to make a modern record player.",
+      languages: [
+        {
+          name: "Raspberry Pi",
+          iconifyClass: "logos-raspberry-pi",
+        },
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "Github",
+          iconifyClass: "logos-github-icon",
+        },
+        {
+          name: "Linux",
+          iconifyClass: "logos-linux-tux",
+        },
+        {
+          name: "Spotify Web API",
+          iconifyClass: "logos-spotify-icon",
+        },
+      ],
+    },
     {
       id: "4",
       name: "google-maps-tourist",
