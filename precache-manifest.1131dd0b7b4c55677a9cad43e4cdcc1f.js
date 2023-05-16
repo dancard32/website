@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8bf8d106a78544d1c1ff1df0f11b9a9e",
+    "revision": "c812a25c66731bee7453f2c2e7339cbe",
     "url": "/website/index.html"
   },
   {
-    "revision": "11d0953cb5c098752d97",
-    "url": "/website/static/css/main.34c6460d.chunk.css"
+    "revision": "d96c5235fd809c68bdd2",
+    "url": "/website/static/css/main.a802a943.chunk.css"
   },
   {
-    "revision": "715867ae0277d3e2c71e",
-    "url": "/website/static/js/2.b5649ca6.chunk.js"
+    "revision": "92046e4b9ca3c51d3b41",
+    "url": "/website/static/js/2.f6f2f2b5.chunk.js"
   },
   {
     "revision": "32eaebd0b06f4bb60d5e9e5d0e7cd13e",
-    "url": "/website/static/js/2.b5649ca6.chunk.js.LICENSE.txt"
+    "url": "/website/static/js/2.f6f2f2b5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "11d0953cb5c098752d97",
-    "url": "/website/static/js/main.8a21541a.chunk.js"
+    "revision": "d96c5235fd809c68bdd2",
+    "url": "/website/static/js/main.08f18bb7.chunk.js"
   },
   {
     "revision": "1b8e03a275305b9f03bb",
@@ -56,6 +56,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/media/Arduino-logo.affe6b34.webp"
   },
   {
+    "revision": "4e6a910a2c95578a5b36c7ae6e01b7d8",
+    "url": "/website/static/media/Boeing-logo.4e6a910a.webp"
+  },
+  {
+    "revision": "9271c5b78c77a98ba5ce649597688fff",
+    "url": "/website/static/media/Boeing_PW-logo.9271c5b7.webp"
+  },
+  {
     "revision": "80d5121ddcb88820357b7ec487c493db",
     "url": "/website/static/media/Building Web Applications in Django.80d5121d.pdf"
   },
@@ -82,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "174e9c83f8a172bc6edffc306e5c35aa",
     "url": "/website/static/media/Diploma_MSE.174e9c83.pdf"
+  },
+  {
+    "revision": "3032383b854124e981bae60d04456a71",
+    "url": "/website/static/media/Docker-logo.3032383b.webp"
   },
   {
     "revision": "e6413c31180c114937622cbd9c4ed9c2",
@@ -154,6 +166,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fd51ef4f9a1cb70c74f341e46ef05c0c",
     "url": "/website/static/media/Introduction to Data Science in Python.fd51ef4f.pdf"
+  },
+  {
+    "revision": "d52d685e9a1683a296d5b8c714801839",
+    "url": "/website/static/media/Kubernetes-logo.d52d685e.webp"
   },
   {
     "revision": "73acb315305de953379e4c096a12b7ff",

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.34c6460d.chunk.css",
-    "main.js": "/website/static/js/main.8a21541a.chunk.js",
-    "main.js.map": "/website/static/js/main.8a21541a.chunk.js.map",
+    "main.css": "/website/static/css/main.a802a943.chunk.css",
+    "main.js": "/website/static/js/main.08f18bb7.chunk.js",
+    "main.js.map": "/website/static/js/main.08f18bb7.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.acca61c5.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.acca61c5.js.map",
-    "static/js/2.b5649ca6.chunk.js": "/website/static/js/2.b5649ca6.chunk.js",
-    "static/js/2.b5649ca6.chunk.js.map": "/website/static/js/2.b5649ca6.chunk.js.map",
+    "static/js/2.f6f2f2b5.chunk.js": "/website/static/js/2.f6f2f2b5.chunk.js",
+    "static/js/2.f6f2f2b5.chunk.js.map": "/website/static/js/2.f6f2f2b5.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.73e1dedc22d161a58e172f985ed7d0fa.js": "/website/precache-manifest.73e1dedc22d161a58e172f985ed7d0fa.js",
+    "precache-manifest.1131dd0b7b4c55677a9cad43e4cdcc1f.js": "/website/precache-manifest.1131dd0b7b4c55677a9cad43e4cdcc1f.js",
     "service-worker.js": "/website/service-worker.js",
-    "static/css/main.34c6460d.chunk.css.map": "/website/static/css/main.34c6460d.chunk.css.map",
-    "static/js/2.b5649ca6.chunk.js.LICENSE.txt": "/website/static/js/2.b5649ca6.chunk.js.LICENSE.txt",
+    "static/css/main.a802a943.chunk.css.map": "/website/static/css/main.a802a943.chunk.css.map",
+    "static/js/2.f6f2f2b5.chunk.js.LICENSE.txt": "/website/static/js/2.f6f2f2b5.chunk.js.LICENSE.txt",
     "static/media/2kW HET.pdf": "/website/static/media/2kW HET.c7f5a19b.pdf",
     "static/media/index.css": "/website/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Applied Machine Learning in Python.pdf": "/website/static/media/Applied Machine Learning in Python.c3c10b67.pdf",
@@ -20,6 +20,8 @@
     "static/media/Applied Text Mining in Python.pdf": "/website/static/media/Applied Text Mining in Python.28f65c2f.pdf",
     "static/media/Arduino-logo-square.webp": "/website/static/media/Arduino-logo-square.07a30b67.webp",
     "static/media/Arduino-logo.webp": "/website/static/media/Arduino-logo.affe6b34.webp",
+    "static/media/Boeing-logo.webp": "/website/static/media/Boeing-logo.4e6a910a.webp",
+    "static/media/Boeing_PW-logo.webp": "/website/static/media/Boeing_PW-logo.9271c5b7.webp",
     "static/media/Building Web Applications in Django.pdf": "/website/static/media/Building Web Applications in Django.80d5121d.pdf",
     "static/media/C++-logo.webp": "/website/static/media/C++-logo.2cd2f98b.webp",
     "static/media/CATIA-logo.webp": "/website/static/media/CATIA-logo.4e2625a8.webp",
@@ -27,6 +29,7 @@
     "static/media/Cura-logo.webp": "/website/static/media/Cura-logo.80f7bd1e.webp",
     "static/media/Diploma_BSE.pdf": "/website/static/media/Diploma_BSE.22875b7a.pdf",
     "static/media/Diploma_MSE.pdf": "/website/static/media/Diploma_MSE.174e9c83.pdf",
+    "static/media/Docker-logo.webp": "/website/static/media/Docker-logo.3032383b.webp",
     "static/media/ExoTerra_Logo.webp": "/website/static/media/ExoTerra_Logo.e6413c31.webp",
     "static/media/ExpressPCB-logo.webp": "/website/static/media/ExpressPCB-logo.8da9ead5.webp",
     "static/media/Facility Effects.pdf": "/website/static/media/Facility Effects.9dd114a4.pdf",
@@ -39,6 +42,7 @@
     "static/media/HTML5-logo.webp": "/website/static/media/HTML5-logo.58b986fe.webp",
     "static/media/Hovercraft Presentation.pdf": "/website/static/media/Hovercraft Presentation.0faee5a7.pdf",
     "static/media/Introduction to Data Science in Python.pdf": "/website/static/media/Introduction to Data Science in Python.fd51ef4f.pdf",
+    "static/media/Kubernetes-logo.webp": "/website/static/media/Kubernetes-logo.d52d685e.webp",
     "static/media/LaTeX-logo.webp": "/website/static/media/LaTeX-logo.73acb315.webp",
     "static/media/Linux-logo.webp": "/website/static/media/Linux-logo.2696468a.webp",
     "static/media/Lunar Lander Truss.pdf": "/website/static/media/Lunar Lander Truss.9910a094.pdf",
@@ -93,8 +97,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.acca61c5.js",
-    "static/js/2.b5649ca6.chunk.js",
-    "static/css/main.34c6460d.chunk.css",
-    "static/js/main.8a21541a.chunk.js"
+    "static/js/2.f6f2f2b5.chunk.js",
+    "static/css/main.a802a943.chunk.css",
+    "static/js/main.08f18bb7.chunk.js"
   ]
 }
