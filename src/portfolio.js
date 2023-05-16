@@ -24,8 +24,8 @@ const socialMediaLinks = {
   github: "https://github.com/dancard32",
   linkedin: "https://www.linkedin.com/in/dan-card/",
   gmail: "dcard@umich.edu",
-  twitter: "https://twitter.com/DanCard32",
-  instagram: "https://www.instagram.com/DanCard32/",
+  twitter: "https://twitter.com/",
+  instagram: "https://www.instagram.com//",
 };
 
 const skills = {
