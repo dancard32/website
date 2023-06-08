@@ -7,6 +7,7 @@ import FullStackImg from "./FullStackImg";
 import ProgrammingImg from "./ProgrammingImg";
 import FirmwareImg from "./FirmwareImg";
 import DevImg from "./DevImg";
+import TeamImg from "./TeamImg";
 
 function GetSkillSvg(props) {
   if (props.fileName === "FullStackImg")
@@ -15,6 +16,7 @@ function GetSkillSvg(props) {
     return <ProgrammingImg theme={props.theme} />;
   else if (props.fileName === "FirmwareImg")
     return <FirmwareImg theme={props.theme} />;
+  else if (props.fileName === "TeamImg") return <TeamImg theme={props.theme} />;
   else if (props.fileName === "DevImg") return <DevImg theme={props.theme} />;
 }
 

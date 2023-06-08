@@ -3,6 +3,7 @@
 const lightTheme = {
   name: "light",
   body: "#FFFFFF", // white
+  hairColor: "#f09a32", // auburn
   text: "#343434", // dark gray/black
   dark: "#000000", // black
   secondaryText: "#7F8DAA", // blue-gray
@@ -20,6 +21,7 @@ const lightTheme = {
 const darkTheme = {
   name: "dark",
   body: "#1D1D1D",
+  hairColor: "#f09a32", // auburn
   text: "#FFFFFF", // white
   dark: "#000000", // black
   secondaryText: "#8D8D8D",

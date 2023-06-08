@@ -21,7 +21,7 @@ function SoftwareSkill(props) {
                 <li className="software-skill-inline" name={logo.skillName}>
                   <span
                     className="iconify"
-                    data-icon={logo.fontAwesomeClassname}
+                    data-icon={logo.iconifyClass}
                     style={logo.style}
                     data-inline="false"
                   ></span>

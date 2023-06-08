@@ -14,7 +14,8 @@ const greeting = {
   logo_name: "DanCard()",
   nickname: "Dan",
   full_name: "Dan Card",
-  subTitle: "Aerospace Engineer, Aspiring Software Engineer. Always curious.",
+  subTitle:
+    "Former rocket scientist, and current software engineer. Always curious.",
   resumeLink: "Resume.pdf",
   mail: "mailto:dcard@umich.edu",
 };
@@ -24,93 +25,96 @@ const socialMediaLinks = {
   github: "https://github.com/dancard32",
   linkedin: "https://www.linkedin.com/in/dan-card/",
   gmail: "dcard@umich.edu",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com//",
+  //twitter: "https://twitter.com/",
+  //instagram: "https://www.instagram.com//",
 };
 
 const skills = {
   data: [
     {
-      title: "Versatile Programming",
+      title: "Software Engineer",
       fileName: "ProgrammingImg",
       skills: [
-        "👨🏽‍💻 Develop back-end algorithms for a vast array of applications",
-        "🚀 Focused Masters study in Aerospace Engineering computational methods",
-        "⚙️ Developing full-stack web application integrated with Google-Maps API",
-        "🗣 Working on a Google-Translate API",
-        "🔜 My first Amazon Alexa application in the planning",
+        "✈️ Currently employed as a software engineer at Boeing",
+        "🧑‍🎓 Enrolled at Georgia Tech Masters in Computer Science",
+        "👨‍🏫 Graduate Teaching Assistant in Academic Integrity",
+        "💻 Developing and maintaining a homelab personal server",
+        "📈 In process of developing a high-frequency trading agent",
+      ],
+      // iconifyClass logo's found here https://iconify.design/
+      softwareSkills: [],
+    },
+    {
+      title: "My Favorite Tech",
+      fileName: "TeamImg",
+      skills: [
+        "👨🏽‍💻 Striving to master Docker and Kubernetes",
+        "🛠 Working to self-host apps/services on my homelab",
+        "🎮 End of year goal to develop a small indie game with LibDX",
+        "🛸 Implement an AI service for personal project",
       ],
       softwareSkills: [
         {
+          skillName: "Homelab",
+          iconifyClass: "icon-park:server",
+        },
+        {
+          skillName: "Docker",
+          iconifyClass: "logos:docker-icon",
+        },
+        {
+          skillName: "Kubernetes",
+          iconifyClass: "logos:kubernetes",
+        },
+        {
+          skillName: "Ansible",
+          iconifyClass: "skill-icons:ansible",
+        },
+        {
+          skillName: "Helm",
+          iconifyClass: "vscode-icons:file-type-helm",
+        },
+        {
+          skillName: "Github",
+          iconifyClass: "simple-icons:github",
+          style: {
+            color: "#ffffff",
+          },
+        },
+        {
+          skillName: "Gitlab",
+          iconifyClass: "logos-gitlab",
+        },
+        {
+          skillName: "RaspberryPi",
+          iconifyClass: "logos-raspberry-pi",
+        },
+        {
+          skillName: "Ubuntu",
+          iconifyClass: "logos:ubuntu",
+        },
+        {
+          skillName: "VS Code",
+          iconifyClass: "vscode-icons:file-type-vscode",
+        },
+        {
+          skillName: "3D Printing",
+          iconifyClass: "mdi:printer-3d-nozzle-alert",
+          style: {
+            color: "#3352b8",
+          },
+        },
+        {
+          skillName: "MATLAB",
+          iconifyClass: "vscode-icons:file-type-matlab",
+        },
+        {
           skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
-          },
+          iconifyClass: "vscode-icons:file-type-python",
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#FFFFFF",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
-        },
-        {
-          skillName: "Git",
-          fontAwesomeClassname: "simple-icons:git",
-          style: {
-            color: "#E94E32",
-          },
+          skillName: "React",
+          iconifyClass: "skill-icons:react-dark",
         },
       ],
     },
@@ -118,39 +122,34 @@ const skills = {
       title: "Technical Background",
       fileName: "FirmwareImg",
       skills: [
-        "🚀 Lead tooling maintenance on a multi-billion dollar contract",
-        "🛰 Worked on high-power thruster running upwards of 10kW",
-        "💻 Developed custom parts to interface with laboratory equipment",
-        "🖨 Avid 3D printer/tinkerer as small side projects",
+        "🚀 Former lead tooling maintenance on a multi-billion dollar DoD contract",
+        "🛰 Designed and researched high-power ion thrusters",
+        "💻 Developed custom laboratory equipment",
+        "🖨 Avid 3D printer/tinkerer of personal projects",
       ],
       softwareSkills: [
         {
-          skillName: "Arduino",
-          fontAwesomeClassname: "simple-icons:arduino",
-          style: {
-            color: "#00979D",
-          },
+          skillName: "Aerospace Engineering",
+          iconifyClass: "noto:rocket",
         },
         {
-          skillName: "LabVIEW",
-          fontAwesomeClassname: "simple-icons:labview",
+          skillName: "Propulsion",
+          iconifyClass: "game-icons:rocket-thruster",
           style: {
             color: "#FFDB00",
           },
         },
         {
           skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
-          },
+          iconifyClass: "vscode-icons:file-type-python",
         },
         {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
+          skillName: "Arduino",
+          iconifyClass: "logos:arduino",
+        },
+        {
+          skillName: "Matlab",
+          iconifyClass: "vscode-icons:file-type-matlab",
         },
       ],
     },
@@ -158,28 +157,28 @@ const skills = {
       title: "Always looking to learn!",
       fileName: "DevImg",
       skills: [
-        "👨🏽‍💻 Always looking to improve! Above are languages I plan to learn",
-        "👍 Targeting summer/fall meme-generator smart contract launch",
-        "🎤 Amazon Alexa Echo app to start this year, targeting May",
+        "👨🏽‍💻 Always trying to improve! Above are languages/software I plan to learn",
+        "🧑‍🎓 Expected Georgia Tech graduation in Fall 2025",
+        "📧 Feel free to reach out to me with any technical questions or recommendations!",
       ],
       softwareSkills: [
         {
           skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          iconifyClass: "simple-icons:amazonaws",
           style: {
             color: "#FF9900",
           },
         },
         {
           skillName: "Alexa",
-          fontAwesomeClassname: "simple-icons:amazonalexa",
+          iconifyClass: "simple-icons:amazonalexa",
           style: {
             color: "#00CAFF",
           },
         },
         {
           skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          iconifyClass: "simple-icons:javascript",
           style: {
             backgroundColor: "#FFFFFF",
             color: "#F7DF1E",
@@ -187,28 +186,28 @@ const skills = {
         },
         {
           skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
+          iconifyClass: "simple-icons:java",
           style: {
             color: "#808080",
           },
         },
         {
           skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
+          iconifyClass: "simple-icons:php",
           style: {
             color: "#313875",
           },
         },
         {
           skillName: "Go",
-          fontAwesomeClassname: "simple-icons:go",
+          iconifyClass: "simple-icons:go",
           style: {
             color: "#40a7e3",
           },
         },
         {
           skillName: "Solidity",
-          fontAwesomeClassname: "simple-icons:solidity",
+          iconifyClass: "simple-icons:solidity",
           style: {
             color: "#4d4d4d",
           },
@@ -244,7 +243,7 @@ const degrees = {
       duration: "September 2018 - August 2020",
       descriptions: [
         "Undergraduate Coursework: Gas Dynamics, Aerospace Propulsion, Aerospace Structures, Aerodynamics, Vibration and Dynamics, Spacecraft Dynamics, Electrical Circuits Analysis, Space Mission Design, Aerospace Controls",
-        "Accolades: Summa Cum Laude, Dean’s List, University Honors, 1st Generation Engineer, 1st Generation STEM",
+        "Accolades: Summa Cum Laude, Dean's List, University Honors, 1st Generation Engineer, 1st Generation STEM",
       ],
       website_link: "https://aero.engin.umich.edu/",
       GPA: "GPA: 3.91",
@@ -258,10 +257,14 @@ const degrees = {
       subtitle: "Computer Science - Computing Systems",
       logo_path: "GT_logo.webp",
       alt_name: "GT",
-      duration: "August 2022 - May 2024",
-      descriptions: ["Graduate Coursework: Machine learning for trading"],
+      duration: "August 2022 - Present",
+      comment: "estimated graduation is May 2024",
+      descriptions: [
+        "Graduate Coursework: Machine Learning for Trading, Computer Networks",
+        "Accolades: Teaching Assistant for Academic Integrity",
+      ],
       website_link: "https://omscs.gatech.edu/",
-      GPA: "GPA: N/A",
+      GPA: "GPA: 3.50",
       degree_path: "work-in-progress-logo.png",
     },
   ],
@@ -417,6 +420,20 @@ const certifications = {
         Supporting Software
     */
     {
+      title: "Docker",
+      subtitle: "Supporting Software",
+      logo_path: "Docker-logo.webp",
+      certificate_link: "https://docker.com/",
+      color_code: "#faae16",
+    },
+    {
+      title: "Kubernetes",
+      subtitle: "Supporting Software",
+      logo_path: "Kubernetes-logo.webp",
+      certificate_link: "https://kubernetes.io/",
+      color_code: "#faae16",
+    },
+    {
       title: "Github",
       subtitle: "Supporting Software",
       logo_path: "Github-logo.webp",
@@ -528,12 +545,33 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
+          title: "Software Engineer",
+          company: "Boeing",
+          company_url: "https://www.boeing.com/",
+          logo_path: "Boeing-logo.webp",
+          duration: "January 2023 - Present",
+          location: "Office 100%",
+          description: "Contact in regards to questions",
+          color: "#4285F4",
+        },
+        {
+          title: "Frontend Software Engineer",
+          company: "Northrop Grumman",
+          company_url: "https://www.northropgrumman.com/",
+          logo_path: "NG_Logo.webp",
+          duration: "June 2022 - December 2022",
+          location: "Remote 100%",
+          description:
+            "Aided in the development of a React web application for the Physical Security of the U.S. Air Force's modernized ICBM - Sentinel program - to monitor missile sites to mitigate both domestic and foreign threats. Furthermore I aided in transitioning from a cesium mapviewer to leaflet mapviewer and converting cesium map entities with TypeScript to improve performance by 5-10x while maintaining original functionality. Lastly I took initiative and lead troubleshooting for a workaround during an unexpected SDE migration reducing team downtime by approximately 2-4 weeks",
+          color: "#ee3c26",
+        },
+        {
           title: "Tooling Engineer",
           company: "Northrop Grumman",
           company_url: "https://www.northropgrumman.com/",
           logo_path: "NG_Logo.webp",
-          duration: "June 2021 - Current",
-          location: "Office 90%, Remote 10%",
+          duration: "June 2021 - June 2022",
+          location: "Office 50%, Remote 50%",
           description:
             "Lead Engineer for maintaining the Navy's multi-billion dollar contract to manufacture the Trident II D5 Ballistic Missile, entailing being on-call 24/7 and to support on-site operations throughout the weekend/and or nights. Determine root causes on tool defects and its impacts on product and discuss top-level engineering with customers (Army, Lockheed Martin, Navy) our proposed fixes to provide transparency and dependable products. Provide excruciating attention to detail to mitigate manufacturing defects on  end-product valued on the order of tens of millions of dollars for national defense Reduce the risks of manufacturing stoppage, identify manufacturing bottlenecks, safety concerns, and support floor operations and personal",
           color: "#0071C5",
@@ -561,7 +599,7 @@ const experience = {
           company_url: "https://pepl.engin.umich.edu/",
           logo_path: "PEPL_Logo.webp",
           duration: "May 2019 - August 2019",
-          location: "Office",
+          location: "Office 100%",
           description:
             "Developed an Arduino program interfaced with a custom circuit to improve measurements of motion stages and allow interface with LabVIEW, or display positions in real-time at 25% of alternatives. Additionally, I improved motion stage performance in vacuum by implementing heat elements at 10% cost of alternatives. Furthermore I designed housing to allow interfacing of an incremental encoder with an azimuthal stage to increase reliability in vacuum.",
           color: "#ee3c26",
@@ -572,7 +610,7 @@ const experience = {
           company_url: "http://websites.umich.edu/~waascsl/index.html",
           logo_path: "mcsl.webp",
           duration: "January 2019 - June 2019",
-          location: "Office",
+          location: "Office 100%",
           description:
             "Designed a high-strength fixture in Fusion 360 to withstand 100kip forces while maximizing turnaround times between experiments to allow characterization of laminate angles in composite sandwiched fearing. Employed digital image correlation techniques to characterize composite performance during stress testing campaigns. Quantified macro-cracks within ply’s in specimens to their peak loads correlating the effects of macro-cracks of the yield strength of carbon-fiber composites",
           color: "#c16bf2",
@@ -615,6 +653,109 @@ const projectsHeader = {
 
 const projects = {
   coding: [
+    {
+      id: "7",
+      name: "homelab",
+      url: "https://github.com/dancard32/homelab",
+      description:
+        "This public repository contains all the services that I am running on my personal server.",
+      languages: [
+        {
+          name: "Raspberry Pi",
+          iconifyClass: "logos-raspberry-pi",
+        },
+        {
+          name: "Github",
+          iconifyClass: "logos-github-icon",
+        },
+        {
+          name: "Proxmox",
+          iconifyClass: "simple-icons:proxmox",
+        },
+        {
+          name: "Plex",
+          iconifyClass: "simple-icons:plex",
+        },
+        {
+          name: "Kubernetes",
+          iconifyClass: "skill-icons:kubernetes",
+        },
+        {
+          name: "Octoprint",
+          iconifyClass: "simple-icons:octoprint",
+          style: {
+            color: "#28b830",
+          },
+        },
+        {
+          name: "Docker",
+          iconifyClass: "skill-icons:docker",
+        },
+        {
+          name: "Pfsense",
+          iconifyClass: "simple-icons:pfsense",
+          style: {
+            color: "#707070",
+          },
+        },
+        {
+          name: "Helm",
+          iconifyClass: "vscode-icons:file-type-helm",
+        },
+        {
+          name: "Ubuntu",
+          iconifyClass: "logos-ubuntu",
+        },
+        {
+          name: "Ansible",
+          iconifyClass: "logos:ansible",
+        },
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "Home Assistant",
+          iconifyClass: "mdi:home-assistant",
+          style: {
+            color: "#54f9ff",
+          },
+        },
+        {
+          name: "True NAS",
+          iconifyClass: "simple-icons:truenas",
+        },
+        {
+          name: "Grafana",
+          iconifyClass: "logos:grafana",
+        },
+        {
+          name: "Prometheus",
+          iconifyClass: "logos:prometheus",
+        },
+        {
+          name: "Nginx",
+          iconifyClass: "logos:nginx",
+        },
+      ],
+    },
+    {
+      id: "6",
+      name: "hft",
+      url: "https://github.com/dancard32/hft",
+      description:
+        "A graduate project with a high-frequency-trading algorithm employing ML to extrapolate best parameters to beat simulated market agents",
+      languages: [
+        {
+          name: "Github",
+          iconifyClass: "logos-github-icon",
+        },
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+      ],
+    },
     {
       id: "5",
       name: "spotify-player",
@@ -784,6 +925,10 @@ const projects = {
         {
           name: "Python",
           img_path: "Python-logo.webp",
+        },
+        {
+          name: "Github",
+          img_path: "Github-logo.webp",
         },
       ],
     },
