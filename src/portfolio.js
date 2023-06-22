@@ -551,7 +551,8 @@ const experience = {
           logo_path: "Boeing-logo.webp",
           duration: "January 2023 - Present",
           location: "Office 100%",
-          description: "Contact in regards to questions",
+          description:
+            "Developed a robust Grafana monitoring dashboard that enables effective visualization and analysis of system metrics. A key focus was on packaging persistent data into releases, ensuring streamlined deployment and integration. Additionally, I optimized C++/Clang RedHat compatibility testing by implementing Docker and parallel building, resulting in an impressive 6x reduction in testing time. Lastly, I authored comprehensive documentation encompassing introductory resources, facilitating a smooth onboarding process for new hires and ensuring their timely assimilation into the team.",
           color: "#4285F4",
         },
         {
